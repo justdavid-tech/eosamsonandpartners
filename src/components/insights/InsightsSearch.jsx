@@ -126,6 +126,7 @@ export default function InsightsSearch({ initialPosts = [] }) {
                       <img
                         src={urlFor(post.mainImage).width(600).height(375).fit("crop").url()}
                         alt={post.title}
+                        style={{ viewTransitionName: `post-img-${post.slug}` }}
                         className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-500"
                       />
                     ) : (

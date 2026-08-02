@@ -134,6 +134,7 @@ export default async function PostPage({ params }) {
             <img
               src={urlFor(post.mainImage).width(1400).height(700).fit("crop").url()}
               alt={post.title}
+              style={{ viewTransitionName: `post-img-${slug}` }}
               className="w-full aspect-[2/1] object-cover hover:scale-101 transition-transform duration-500"
             />
           </div>
