@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0B1F3A;
+  --color-navy-light: #14335C;
+  --color-ink: #0A0A0B;
+  --color-cream: #F7F4EE;
+  --color-brass: #B8935A;
+  --color-brass-light: #D4B583;
+  --color-slate: #5B6472;
+
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Lato', sans-serif;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-brass);
+}
+
+.hairline {
+  height: 1px;
+  background: linear-gradient(to right, var(--color-brass), transparent);
+}
