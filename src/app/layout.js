@@ -12,14 +12,14 @@ export const metadata = {
     template: "%s | E-O Samson & Partners",
   },
   description: "E-O Samson & Partners is a premier, full-service law firm combining profound legal expertise with strategic foresight to safeguard your personal, corporate, and constitutional rights.",
-  metadataBase: new URL("https://eosamsonandpartners-test.vercel.app"),
+  metadataBase: new URL("https://eosamsonandpartners.vercel.app"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "E-O Samson & Partners | Excellence in Advocacy",
     description: "Excellence in Advocacy. Integrity in Service. A premier law firm providing strategic legal counsel for individuals, corporations, and public entities.",
-    url: "https://eosamsonandpartners-test.vercel.app",
+    url: "https://eosamsonandpartners.vercel.app",
     siteName: "E-O Samson & Partners",
     images: [
       {
