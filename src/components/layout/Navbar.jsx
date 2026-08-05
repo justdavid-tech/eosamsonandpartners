@@ -25,8 +25,8 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-navy text-white">
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
-        <a href="/" className="font-display text-xl md:text-2xl tracking-tight z-50">
-          E-O Samson <span className="text-brass">& Partners</span>
+        <a href="/" className="z-50 block flex items-center">
+          <img src="/logo-nav.png" alt="E-O Samson & Partners" className="h-28 w-auto object-contain" />
         </a>
 
         {/* Desktop nav */}

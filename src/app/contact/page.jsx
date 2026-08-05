@@ -76,6 +76,30 @@ export default function ContactPage() {
                 </p>
               </div>
             </div>
+
+            <div className="hairline w-full opacity-30" />
+            
+            <div className="flex gap-4 items-start">
+              <Phone className="text-brass w-6 h-6 shrink-0 mt-1" />
+              <div>
+                <p className="eyebrow mb-1 text-brass">Call Us</p>
+                <a href="tel:+2348063553009" className="text-white/80 hover:text-brass transition-colors leading-relaxed text-sm md:text-base block">
+                  +2348063553009
+                </a>
+              </div>
+            </div>
+
+            <div className="hairline w-full opacity-30" />
+            
+            <div className="flex gap-4 items-start">
+              <Mail className="text-brass w-6 h-6 shrink-0 mt-1" />
+              <div>
+                <p className="eyebrow mb-1 text-brass">Email Us</p>
+                <a href="mailto:info@eosamsonandpartners.com" className="text-white/80 hover:text-brass transition-colors leading-relaxed text-sm md:text-base block">
+                  info@eosamsonandpartners.com
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -265,7 +289,7 @@ export default function ContactPage() {
                 </div>
                 <div className="aspect-video w-full border border-navy/10 overflow-hidden rounded-sm shadow-sm bg-navy-light/10">
                   <iframe
-                    src="https://maps.google.com/maps?q=1%20Ondo%20Street%2C%20Garki%2C%20Abuja%2C%20Nigeria&output=embed"
+                    src="https://www.google.com/maps/search/?api=1&query=Gratia+Corporate+Consult+RC+7617592+Area+1+1+Ondo+Street+Garki+Abuja+900103"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}

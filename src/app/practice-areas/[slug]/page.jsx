@@ -1,11 +1,10 @@
-import { client } from "@/lib/sanity/client";
-import { practiceAreaBySlugQuery } from "@/lib/sanity/queries";
+import { getPracticeAreaBySlug } from "@/data/practiceAreas";
 import { urlFor } from "@/lib/sanity/image";
 import FAQAccordion from "@/components/practice-areas/FAQAccordion";
 
 export default async function PracticeAreaPage({ params }) {
   const { slug } = await params;
-  const area = await client.fetch(practiceAreaBySlugQuery, { slug });
+  const area = getPracticeAreaBySlug(slug);
 
   if (!area) {
     return (
@@ -48,7 +47,7 @@ export default async function PracticeAreaPage({ params }) {
             {area.coverImage ? (
               <>
                 <img
-                  src={urlFor(area.coverImage).width(900).height(1100).fit("crop").url()}
+                  src={typeof area.coverImage === 'string' && area.coverImage.startsWith('http') ? area.coverImage : urlFor(area.coverImage).width(900).height(1100).fit("crop").url()}
                   alt={area.title}
                   className="absolute inset-0 w-full h-full object-cover"
                 />
@@ -82,7 +81,7 @@ export default async function PracticeAreaPage({ params }) {
                 {area.servicesIncluded.map((s, i) => (
                   <div key={i} className="flex gap-5 items-baseline">
                     <span className="font-display text-brass text-sm shrink-0 tabular-nums">
-                      &sect; {String(i + 1).padStart(2, "0")}
+                       {String(i + 1).padStart(2, "0")}
                     </span>
                     <span className="text-ink text-[1.05rem] leading-relaxed">{s}</span>
                   </div>

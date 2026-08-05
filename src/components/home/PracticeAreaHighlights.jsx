@@ -1,9 +1,8 @@
-import { client } from "@/lib/sanity/client";
-import { featuredPracticeAreasQuery } from "@/lib/sanity/queries";
+import { getFeaturedPracticeAreas } from "@/data/practiceAreas";
 import { getPracticeAreaIcon } from "@/lib/icons";
 
 export default async function PracticeAreaHighlights() {
-  const featuredAreas = await client.fetch(featuredPracticeAreasQuery);
+  const featuredAreas = getFeaturedPracticeAreas();
 
   return (
     <div className="w-full">

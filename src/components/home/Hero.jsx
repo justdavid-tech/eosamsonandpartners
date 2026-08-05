@@ -31,35 +31,35 @@ export default function Hero() {
           
           {/* LEFT: Copy content */}
           <div className="text-center lg:text-left flex flex-col items-center lg:items-start">
-            <span className="inline-block text-xs font-semibold text-brass bg-brass/10 px-3.5 py-1.5 rounded-full uppercase tracking-wider mb-6">
+            <span className="inline-block text-xs font-semibold text-brass bg-brass/10 px-3.5 py-1.5 rounded-full uppercase tracking-wider mb-6 animate-fade-in-up">
               Excellence In Advocacy
             </span>
             
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl leading-[1.1] mb-6 tracking-tight max-w-xl">
-              Unraveling Legal Complexities <span className="text-brass">Together</span>
+            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl leading-[1.1] mb-6 tracking-tight max-w-xl animate-fade-in-up animation-delay-100">
+              Decisive <span className="text-brass">Counsel.</span><br></br> Elite <span className="text-brass">Advocacy.</span>
             </h1>
             
-            <p className="text-base md:text-lg text-white/70 max-w-lg leading-relaxed mb-8">
-              At E-O Samson & Partners, we transform legal complexity into strategic clarity. Our team delivers precise, personalized representation to protect what matters most to you.
+            <p className="text-base md:text-lg text-white/70 max-w-lg leading-relaxed mb-8 animate-fade-in-up animation-delay-200">
+              At E.O. Samson & Partners, we combine profound legal expertise with strategic foresight to safeguard your personal, corporate, and constitutional rights.
             </p>
 
-            <div className="flex flex-wrap justify-center lg:justify-start items-center gap-4 mb-12 w-full">
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 mb-12 w-full animate-fade-in-up animation-delay-300">
               <a
                 href="/book-consultation"
-                className="bg-brass hover:bg-brass-light text-navy font-semibold px-8 py-4 rounded-sm transition-colors text-sm tracking-wide shadow-sm"
+                className="bg-brass hover:bg-brass-light text-navy font-semibold px-7 py-3.5 rounded-sm transition-colors text-sm tracking-wide shadow-sm text-center"
               >
                 Consult Now
               </a>
               <a
                 href="/practice-areas"
-                className="border border-white/20 hover:border-brass text-white hover:text-brass font-medium px-8 py-4 rounded-sm transition-colors text-sm tracking-wide inline-flex items-center gap-2"
+                className="text-white hover:text-brass font-medium text-sm tracking-wide transition-colors inline-flex items-center gap-1.5 py-3"
               >
                 Explore Practices <span>&rarr;</span>
               </a>
             </div>
 
             {/* Desktop trust logos */}
-            <div className="hidden md:flex flex-wrap items-center gap-x-8 gap-y-3 border-t border-white/10 pt-8 w-full">
+            <div className="hidden md:flex flex-wrap items-center gap-x-8 gap-y-3 border-t border-white/10 pt-8 w-full animate-fade-in-up animation-delay-400">
               <span className="text-[10px] font-bold text-white/40 uppercase tracking-widest block w-full mb-1">
                 Recognised By
               </span>
@@ -113,12 +113,20 @@ export default function Hero() {
                     ))}
                   </ul>
                 </div>
+                <div className="mt-6 pt-4 border-t border-white/10">
+                  <a
+                    href="/practice-areas"
+                    className="text-xs font-semibold text-brass hover:text-brass-light transition-colors inline-flex items-center gap-1.5 group/btn"
+                  >
+                    Explore all practices <span className="group-hover:translate-x-1 transition-transform">&rarr;</span>
+                  </a>
+                </div>
               </div>
 
               {/* Cover Statue Image */}
               <div className="md:col-span-7 relative aspect-[4/5] md:aspect-auto overflow-hidden rounded-sm">
                 <img
-                  src="https://images.unsplash.com/photo-1589994965851-a8f479c573a9?fm=jpg&q=80&w=800&auto=format&fit=crop"
+                  src="/hero.jpg"
                   alt="Lady Justice statue representing advocacy"
                   className="w-full h-full object-cover rounded-sm hover:scale-103 transition-transform duration-700"
                 />

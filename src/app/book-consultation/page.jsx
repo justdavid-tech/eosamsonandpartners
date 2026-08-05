@@ -1,10 +1,8 @@
-import { client } from "@/lib/sanity/client";
 import BookingFlow from "@/components/booking/BookingFlow";
-
-const practiceAreaTitlesQuery = `*[_type == "practiceArea"] | order(title asc) { title }`;
+import { getPracticeAreaTitles } from "@/data/practiceAreas";
 
 export default async function BookConsultationPage() {
-  const practiceAreas = await client.fetch(practiceAreaTitlesQuery);
+  const practiceAreas = getPracticeAreaTitles();
 
   return <BookingFlow practiceAreas={practiceAreas} />;
 }

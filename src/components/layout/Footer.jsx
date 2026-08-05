@@ -1,3 +1,5 @@
+import { Phone, Mail } from "lucide-react";
+
 export default function Footer() {
   return (
     <footer className="bg-navy text-white/80">
@@ -31,7 +33,17 @@ export default function Footer() {
             <li><a href="/faq" className="hover:text-brass transition-colors">FAQ</a></li>
             <li><a href="/contact" className="hover:text-brass transition-colors">Contact</a></li>
           </ul>
-          <p className="text-sm">1, Ondo Street, Garki, FCT, Abuja</p>
+          <div className="space-y-3 mt-6 border-t border-white/10 pt-4 text-sm">
+            <p className="text-white/60">1, Ondo Street, Garki, FCT, Abuja</p>
+            <a href="tel:+2348063553009" className="flex items-center gap-2 hover:text-brass transition-colors w-fit">
+              <Phone className="w-4 h-4 text-brass" />
+              <span>+234-8063553009</span>
+            </a>
+            <a href="mailto:info@eosamsonandpartners.com" className="flex items-center gap-2 hover:text-brass transition-colors w-fit">
+              <Mail className="w-4 h-4 text-brass" />
+              <span>info@eosamsonandpartners.com</span>
+            </a>
+          </div>
         </div>
       </div>
 

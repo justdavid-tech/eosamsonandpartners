@@ -1,51 +1,348 @@
-1. Background alternation system
+<!-- From Uiverse.io by Nawsome --> 
+<div class="loader">
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__ball"></div>
+</div>
 
-New wrapper: src/components/layout/Section.jsx — takes a tone prop and applies consistent styling:
 
-tone="navy"   → bg-navy, text-white, brass accents
-tone="cream"  → bg-cream, text-ink, navy accents
-tone="white"  → bg-white, text-ink (for a lighter beat between two cream/navy sections)
+/* From Uiverse.io by Nawsome */ 
+.loader {
+  position: relative;
+  width: 75px;
+  height: 100px;
+}
 
-Home page order becomes: Hero (navy) → Practice Areas (cream) → next section (navy) → alternating from there. One prop per section, no repeated color logic.
+.loader__bar {
+  position: absolute;
+  bottom: 0;
+  width: 10px;
+  height: 50%;
+  background: rgb(0, 0, 0);
+  transform-origin: center bottom;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
 
-2. Sanity schema changes needed (before content can support this)
+.loader__bar:nth-child(1) {
+  left: 0px;
+  transform: scale(1, 0.2);
+  -webkit-animation: barUp1 4s infinite;
+  animation: barUp1 4s infinite;
+}
 
-practiceArea.js schema needs two new fields added:
+.loader__bar:nth-child(2) {
+  left: 15px;
+  transform: scale(1, 0.4);
+  -webkit-animation: barUp2 4s infinite;
+  animation: barUp2 4s infinite;
+}
 
-featured — boolean, "Show on homepage" toggle
-icon — image type, for the uploaded SVG/icon per practice area
+.loader__bar:nth-child(3) {
+  left: 30px;
+  transform: scale(1, 0.6);
+  -webkit-animation: barUp3 4s infinite;
+  animation: barUp3 4s infinite;
+}
 
-Once added, you'll need to go into Studio and:
+.loader__bar:nth-child(4) {
+  left: 45px;
+  transform: scale(1, 0.8);
+  -webkit-animation: barUp4 4s infinite;
+  animation: barUp4 4s infinite;
+}
 
-Toggle featured: true on exactly 6 entries (your pick — ideally one from each of the 5 categories plus one more, for visual/topic variety)
-Upload an icon image to each of those 6 (doesn't have to be all 25 immediately — just the featured ones to start)
+.loader__bar:nth-child(5) {
+  left: 60px;
+  transform: scale(1, 1);
+  -webkit-animation: barUp5 4s infinite;
+  animation: barUp5 4s infinite;
+}
 
-This is a blocking step — the homepage component can't render real icons until at least 6 entries have both featured and icon set in Sanity. I'll build the component to gracefully fall back (placeholder icon) if either is missing, so nothing breaks while you're filling this in.
+.loader__ball {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background: rgb(44, 143, 255);
+  border-radius: 50%;
+  -webkit-animation: ball624 4s infinite;
+  animation: ball624 4s infinite;
+}
 
-3. Data fetching
+@keyframes ball624 {
+  0% {
+    transform: translate(0, 0);
+  }
 
-Home page (src/app/page.js): new GROQ query, featuredPracticeAreasQuery, fetches only featured == true, limited to 6, includes icon asset URL, title, overview (short), slug.
+  5% {
+    transform: translate(8px, -14px);
+  }
 
-Main /practice-areas index page: separate query, allPracticeAreasQuery, fetches all 25 with title, category, overview, slug, icon. Fetched once on the server; passed down to a client component that handles the search input and filters in-browser (25 items is small enough that client-side filtering is simpler and faster than a live Sanity search query — no extra API calls per keystroke).
+  10% {
+    transform: translate(15px, -10px);
+  }
 
-4. Card design (the 6 on Home)
-Icon (uploaded SVG, rendered via next/image or inline <img>)
-Title
-Overview, truncated to ~2 lines (line-clamp-2)
-"Learn more →" → links to /practice-areas/[slug] for that specific entry
-Hover: subtle lift (translateY(-4px)) + border shifts from navy/10 to brass + icon gets a slight brass tint or scale — kept restrained, not bouncy
-Grid: grid-cols-1 md:grid-cols-3, 6 cards → naturally forms 3-up/3-down on desktop, stacks on mobile
+  17% {
+    transform: translate(23px, -24px);
+  }
 
-Below the 6-card grid: one centered CTA — "View All 25 Practice Areas →" → /practice-areas (the main index).
+  20% {
+    transform: translate(30px, -20px);
+  }
 
-5. Main /practice-areas index page (separate from Home)
-Search input at the top — filters by title/category/overview substring match, live as you type, client-side
-Optional: category filter chips below search (using the same 5 categories from the mega-menu) for one-click narrowing
-Grid of all 25 cards below, same visual card style as Home's featured ones, just more of them
-This page is where the "20+ list, easy way for visitors" problem actually gets solved — Home just teases 6, this page is the real directory
-6. Build order
-Add featured + icon fields to practiceArea.js schema → you fill in 6 entries in Studio
-Build Section.jsx wrapper
-Build PracticeAreaHighlights.jsx (Home's 6-card section)
-Wire into page.js with alternating tones
-Build /practice-areas/page.jsx (full index + search) — separate task, since it's a bigger page
+  27% {
+    transform: translate(38px, -34px);
+  }
+
+  30% {
+    transform: translate(45px, -30px);
+  }
+
+  37% {
+    transform: translate(53px, -44px);
+  }
+
+  40% {
+    transform: translate(60px, -40px);
+  }
+
+  50% {
+    transform: translate(60px, 0);
+  }
+
+  57% {
+    transform: translate(53px, -14px);
+  }
+
+  60% {
+    transform: translate(45px, -10px);
+  }
+
+  67% {
+    transform: translate(37px, -24px);
+  }
+
+  70% {
+    transform: translate(30px, -20px);
+  }
+
+  77% {
+    transform: translate(22px, -34px);
+  }
+
+  80% {
+    transform: translate(15px, -30px);
+  }
+
+  87% {
+    transform: translate(7px, -44px);
+  }
+
+  90% {
+    transform: translate(0, -40px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@-webkit-keyframes barUp1 {
+  0% {
+    transform: scale(1, 0.2);
+  }
+
+  40% {
+    transform: scale(1, 0.2);
+  }
+
+  50% {
+    transform: scale(1, 1);
+  }
+
+  90% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    transform: scale(1, 0.2);
+  }
+}
+
+@keyframes barUp1 {
+  0% {
+    transform: scale(1, 0.2);
+  }
+
+  40% {
+    transform: scale(1, 0.2);
+  }
+
+  50% {
+    transform: scale(1, 1);
+  }
+
+  90% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    transform: scale(1, 0.2);
+  }
+}
+
+@-webkit-keyframes barUp2 {
+  0% {
+    transform: scale(1, 0.4);
+  }
+
+  40% {
+    transform: scale(1, 0.4);
+  }
+
+  50% {
+    transform: scale(1, 0.8);
+  }
+
+  90% {
+    transform: scale(1, 0.8);
+  }
+
+  100% {
+    transform: scale(1, 0.4);
+  }
+}
+
+@keyframes barUp2 {
+  0% {
+    transform: scale(1, 0.4);
+  }
+
+  40% {
+    transform: scale(1, 0.4);
+  }
+
+  50% {
+    transform: scale(1, 0.8);
+  }
+
+  90% {
+    transform: scale(1, 0.8);
+  }
+
+  100% {
+    transform: scale(1, 0.4);
+  }
+}
+
+@-webkit-keyframes barUp3 {
+  0% {
+    transform: scale(1, 0.6);
+  }
+
+  100% {
+    transform: scale(1, 0.6);
+  }
+}
+
+@keyframes barUp3 {
+  0% {
+    transform: scale(1, 0.6);
+  }
+
+  100% {
+    transform: scale(1, 0.6);
+  }
+}
+
+@-webkit-keyframes barUp4 {
+  0% {
+    transform: scale(1, 0.8);
+  }
+
+  40% {
+    transform: scale(1, 0.8);
+  }
+
+  50% {
+    transform: scale(1, 0.4);
+  }
+
+  90% {
+    transform: scale(1, 0.4);
+  }
+
+  100% {
+    transform: scale(1, 0.8);
+  }
+}
+
+@keyframes barUp4 {
+  0% {
+    transform: scale(1, 0.8);
+  }
+
+  40% {
+    transform: scale(1, 0.8);
+  }
+
+  50% {
+    transform: scale(1, 0.4);
+  }
+
+  90% {
+    transform: scale(1, 0.4);
+  }
+
+  100% {
+    transform: scale(1, 0.8);
+  }
+}
+
+@-webkit-keyframes barUp5 {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  40% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1, 0.2);
+  }
+
+  90% {
+    transform: scale(1, 0.2);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes barUp5 {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  40% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1, 0.2);
+  }
+
+  90% {
+    transform: scale(1, 0.2);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}

@@ -27,7 +27,7 @@ export default function FloatingActions() {
       {/* WhatsApp Button */}
       <div className="relative group">
         <a
-          href="https://wa.me/+2348138939107"
+          href="https://wa.me/2348063553009"
           target="_blank"
           rel="noreferrer"
           className="w-12 h-12 bg-green-500 hover:bg-green-600 text-white rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 hover:animate-bounce"

@@ -1,12 +1,11 @@
-import { client } from "@/lib/sanity/client";
-import { allPracticeAreasQuery } from "@/lib/sanity/queries";
+import { allPracticeAreas } from "@/data/practiceAreas";
 import PracticeAreasSearch from "@/components/practice-areas/PracticeAreasSearch";
 import Section from "@/components/layout/Section";
 
 export const dynamic = "force-dynamic";
 
 export default async function PracticeAreasPage() {
-  const practiceAreas = await client.fetch(allPracticeAreasQuery);
+  const practiceAreas = allPracticeAreas;
 
   return (
     <div>

@@ -1,0 +1,1082 @@
+[
+  {
+    "category": "Litigation & Dispute Resolution",
+    "slug": "litigation-and-dispute-resolution",
+    "practice_areas": [
+      {
+        "name": "Civil Litigation",
+        "slug": "civil-litigation",
+        "imageUrl": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Decisive Advocacy in Civil Litigation",
+          "subheadline": "Protecting individual and corporate rights through strategic, results-driven courtroom representation."
+        },
+        "overview": "Civil disputes can disrupt both personal stability and business operations. Our firm provides robust, practical advocacy designed to resolve conflicts efficiently—whether through rigorous negotiation or aggressive courtroom litigation. We cut through procedural complexities to safeguard your legal and financial interests.",
+        "servicesIncluded": [
+          "Breach of contract claims",
+          "Debt recovery and enforcement actions",
+          "Tortious claims (negligence, defamation, trespass)",
+          "Landlord and tenant disputes",
+          "Enforcement of fundamental human rights"
+        ],
+        "whyChooseUs": [
+          "Decades of high-stakes trial experience across trial and appellate courts.",
+          "Commercial realism that prioritizes cost-effective resolutions over protracted battles.",
+          "Meticulous case preparation rooted in comprehensive evidentiary analysis."
+        ],
+        "faq": [
+          {
+            "question": "How long does a typical civil litigation case take in court?",
+            "answer": "Timelines vary depending on court dockets, the complexity of the dispute, and whether matters are contested, but our proactive case management ensures minimal avoidable delays."
+          },
+          {
+            "question": "Can my dispute be resolved without going to a full trial?",
+            "answer": "Yes, many civil disputes are successfully resolved through pre-action negotiations, settlements, or alternative dispute resolution mechanisms before reaching trial."
+          },
+          {
+            "question": "What documents should I bring to my initial consultation?",
+            "answer": "Bring all relevant contracts, correspondence, agreements, notices, and any evidence pertinent to the dispute to allow an immediate, accurate assessment."
+          }
+        ],
+        "ctaPrompt": "Facing a civil dispute? Speak with our litigation team today.",
+        "relatedPracticeAreas": [
+          "Commercial Litigation",
+          "Arbitration & Alternative Dispute Resolution",
+          "Debt Recovery"
+        ]
+      },
+      {
+        "name": "Commercial Litigation",
+        "slug": "commercial-litigation",
+        "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Strategic Dispute Resolution for Enterprises",
+          "subheadline": "Safeguarding corporate assets and commercial relationships through elite legal combat."
+        },
+        "overview": "Commercial disputes demand a synthesis of sharp legal acumen and deep business intuition. We represent corporations, partnerships, and investors in high-value commercial conflicts, corporate disputes, and shareholder litigation. Our overarching aim is to protect your enterprise value while aggressively advancing your legal position.",
+        "servicesIncluded": [
+          "Shareholder and director disputes",
+          "Corporate insolvency and winding-up proceedings",
+          "Asset tracing and recovery",
+          "Intellectual property infringement litigation",
+          "Banking and financial sector disputes"
+        ],
+        "whyChooseUs": [
+          "Deep understanding of corporate structures, commercial realities, and industry dynamics.",
+          "Proven track record of managing complex, multi-jurisdictional corporate litigation.",
+          "Uncompromising commitment to protecting client commercial reputation and bottom line."
+        ],
+        "faq": [
+          {
+            "question": "How do you handle parallel disputes that threaten business operations?",
+            "answer": "We deploy rapid-response injunctions and strategic interim reliefs to protect corporate assets and maintain business continuity while litigation proceeds."
+          },
+          {
+            "question": "Is arbitration a better route than commercial litigation for our business?",
+            "answer": "It depends on the nature of your contracts and confidentiality needs; we evaluate your specific commercial agreements to advise on the optimal forum."
+          },
+          {
+            "question": "Can you assist with cross-border commercial disputes?",
+            "answer": "Yes, we collaborate with international networks to coordinate enforcement and litigation strategies across multiple jurisdictions."
+          }
+        ],
+        "ctaPrompt": "Facing a commercial dispute? Speak with our litigation team today.",
+        "relatedPracticeAreas": [
+          "Civil Litigation",
+          "Arbitration & Alternative Dispute Resolution",
+          "Corporate & Commercial Law"
+        ]
+      },
+      {
+        "name": "Arbitration & Alternative Dispute Resolution",
+        "slug": "arbitration-adr",
+        "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Confidential, Efficient Conflict Resolution",
+          "subheadline": "Resolving complex commercial disputes outside the courtroom through expert arbitration and mediation."
+        },
+        "overview": "Traditional litigation is not always the best path for preserving business relationships or confidentiality. We act as counsel and arbitrators in domestic and international alternative dispute resolution (ADR) proceedings. We specialize in turning stalled commercial deadlocks into pragmatic, binding settlements.",
+        "servicesIncluded": [
+          "Domestic and international arbitration representation",
+          "Commercial mediation and conciliation",
+          "Negotiation of dispute resolution clauses",
+          "Enforcement and challenge of arbitral awards",
+          "Expert determination proceedings"
+        ],
+        "whyChooseUs": [
+          "Certified expertise in recognized global and domestic arbitration frameworks.",
+          "Focus on confidentiality, speed, and preservation of vital commercial partnerships.",
+          "Strategic acumen that minimizes cost exposure while maximizing recovery likelihood."
+        ],
+        "faq": [
+          {
+            "question": "What makes arbitration preferable to litigation for certain contracts?",
+            "answer": "Arbitration offers confidentiality, procedural flexibility, and the ability to select arbitrators with specific industry expertise."
+          },
+          {
+            "question": "Are arbitral awards legally enforceable?",
+            "answer": "Yes, arbitral awards are binding and enforceable through the courts similarly to court judgments, both domestically and internationally."
+          },
+          {
+            "question": "Can we use ADR if a dispute has already entered the court system?",
+            "answer": "Absolutely, courts frequently encourage or direct parties to explore multi-door courthouse mediation or arbitration at various stages of litigation."
+          }
+        ],
+        "ctaPrompt": "Facing a commercial dispute? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Commercial Litigation",
+          "Civil Litigation",
+          "Contract Drafting & Review"
+        ]
+      },
+      {
+        "name": "Election Petition & Public Law Matters",
+        "slug": "election-petition-public-law",
+        "imageUrl": "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Authoritative Advocacy in Electoral & Public Law",
+          "subheadline": "Defending democratic mandates and challenging administrative excess with precision."
+        },
+        "overview": "Electoral victories and public law mandates require specialized, time-sensitive litigation strategies. We represent political parties, candidates, and public entities in election petitions and constitutional challenges. We navigate statutory timelines and complex evidentiary rules with absolute urgency.",
+        "servicesIncluded": [
+          "National and sub-national election petition trials and appeals",
+          "Pre-election matters and party primaries disputes",
+          "Judicial review of administrative and public agency actions",
+          "Constitutional rights enforcement litigation",
+          "Legislative compliance and advisory opinions"
+        ],
+        "whyChooseUs": [
+          "Exceptional grasp of constitutional statutes, electoral acts, and tight procedural rules.",
+          "Rapid response legal teams capable of scaling up for intensive election tribunals.",
+          "Uncompromising integrity and independence in politically sensitive mandates."
+        ],
+        "faq": [
+          {
+            "question": "What are the strict timeframes for filing an election petition?",
+            "answer": "Election petitions must be filed within strict statutory windows following the declaration of election results, typically counted in days."
+          },
+          {
+            "question": "Can pre-election disputes still be litigated after voting has occurred?",
+            "answer": "Most pre-election issues regarding candidate nominations must be resolved prior to the polls, though specialized exceptions apply under specific contexts."
+          },
+          {
+            "question": "What constitutes grounds for an election petition?",
+            "answer": "Grounds typically include non-qualification, corrupt practices, non-compliance with electoral laws, and unlawful exclusion of candidates."
+          }
+        ],
+        "ctaPrompt": "Facing an election matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Constitutional & Administrative Law",
+          "Civil Litigation",
+          "Government Relations & Regulatory Advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Corporate & Commercial",
+    "slug": "corporate-and-commercial",
+    "practice_areas": [
+      {
+        "name": "Corporate & Commercial Law",
+        "slug": "corporate-commercial-law",
+        "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Strategic Legal Architecture for Modern Enterprises",
+          "subheadline": "Empowering corporate growth through comprehensive transactional and advisory counsel."
+        },
+        "overview": "Commercial success requires a solid legal foundation. We advise startups, growing enterprises, and established conglomerates on everyday operational legalities, major corporate transactions, and strategic restructuring. We act as trusted external general counsel to align your commercial goals with absolute legal compliance.",
+        "servicesIncluded": [
+          "Corporate structuring and restructuring",
+          "Mergers, acquisitions, and joint ventures",
+          "Private equity and venture capital advisory",
+          "Corporate governance advisory",
+          "Commercial contract negotiation and drafting"
+        ],
+        "whyChooseUs": [
+          "Deep transactional experience bridging local regulations and international standards.",
+          "Commercial mindset focused on closing deals efficiently while mitigating downside risk.",
+          "End-to-end support across all phases of the corporate lifecycle."
+        ],
+        "faq": [
+          {
+            "question": "How do you structure corporate transactions to minimize tax and regulatory exposure?",
+            "answer": "We work closely with tax and compliance experts to design structures that optimize operational efficiency while maintaining strict regulatory alignment."
+          },
+          {
+            "question": "Can you serve as outsourced general counsel for growing companies?",
+            "answer": "Yes, we provide flexible, retainer-based general counsel services tailored to businesses that do not require a full-time in-house legal department."
+          },
+          {
+            "question": "What is involved in structuring a cross-border joint venture?",
+            "answer": "It involves drafting robust shareholder agreements, managing regulatory approvals, and establishing clear exit mechanics tailored to all participating entities."
+          }
+        ],
+        "ctaPrompt": "Facing a corporate matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Corporate Governance & Regulatory Compliance",
+          "Contract Drafting & Review",
+          "Due Diligence & Legal Audit"
+        ]
+      },
+      {
+        "name": "Corporate Governance & Regulatory Compliance",
+        "slug": "corporate-governance-compliance",
+        "imageUrl": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Proactive Governance and Regulatory Risk Management",
+          "subheadline": "Protecting boardrooms and institutions from compliance failures and regulatory penalties."
+        },
+        "overview": "The modern regulatory landscape is increasingly complex and unforgiving. We help organizations build transparent governance structures, design internal compliance frameworks, and interface smoothly with regulators. We ensure your business stays ahead of changing statutory mandates.",
+        "servicesIncluded": [
+          "Board advisory and governance code implementation",
+          "Anti-corruption and anti-money laundering (AML) compliance programs",
+          "Regulatory audit and risk assessment",
+          "Data protection and privacy compliance audits",
+          "Liaison with statutory regulatory bodies"
+        ],
+        "whyChooseUs": [
+          "Proactive risk-mitigation strategies that protect corporate reputation and leadership liability.",
+          "Up-to-date insight into evolving statutory and sector-specific regulatory frameworks.",
+          "Tailored governance frameworks that scale effectively with company size."
+        ],
+        "faq": [
+          {
+            "question": "Why is corporate governance crucial for non-listed private companies?",
+            "answer": "Good governance attracts institutional investors, minimizes internal fraud risks, and ensures smooth leadership succession."
+          },
+          {
+            "question": "How frequently should a company update its compliance policies?",
+            "answer": "Policies should be reviewed annually or immediately following significant legislative reforms within your operating sector."
+          },
+          {
+            "question": "What are the consequences of non-compliance with data protection laws?",
+            "answer": "Non-compliance can lead to severe statutory fines, operational restrictions, and catastrophic reputational damage."
+          }
+        ],
+        "ctaPrompt": "Facing a compliance matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Corporate & Commercial Law",
+          "Government Relations & Regulatory Advisory",
+          "Due Diligence & Legal Audit"
+        ]
+      },
+      {
+        "name": "Company Secretarial Services",
+        "slug": "company-secretarial-services",
+        "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Precision Corporate Administration & Filings",
+          "subheadline": "Streamlining statutory compliance and corporate record-keeping for seamless operations."
+        },
+        "overview": "Maintaining pristine corporate records and meeting statutory filing deadlines is vital for corporate health. Our dedicated company secretarial team manages all routine administrative burdens, allowing executive leadership to focus entirely on core business expansion.",
+        "servicesIncluded": [
+          "Incorporation and registration of companies and business names",
+          "Maintenance of statutory registers and minute books",
+          "Management of annual returns and regulatory filings",
+          "Organization of board meetings and general meetings",
+          "Processing corporate changes (share capital, directors, address)"
+        ],
+        "whyChooseUs": [
+          "Dedicated administrative systems ensuring zero missed statutory filing deadlines.",
+          "Seamless electronic portal management for rapid processing with corporate registries.",
+          "Direct access to seasoned corporate lawyers for supplementary board-level advice."
+        ],
+        "faq": [
+          {
+            "question": "What happens if a company fails to file its annual returns on time?",
+            "answer": "Late filings attract statutory penalties, administrative blocks, and can eventually trigger regulatory inquiries or status reviews."
+          },
+          {
+            "question": "Can you handle board meeting documentation and minutes drafting?",
+            "answer": "Yes, we attend or manage board proceedings to ensure legally compliant minute-keeping and resolutions drafting."
+          },
+          {
+            "question": "How do we change our company's shareholding structure?",
+            "answer": "We handle the complete process, including board approvals, share transfer documentation, stamp duties, and registry updates."
+          }
+        ],
+        "ctaPrompt": "Facing a corporate matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Corporate Governance & Regulatory Compliance",
+          "Corporate & Commercial Law",
+          "Contract Drafting & Review"
+        ]
+      },
+      {
+        "name": "Contract Drafting & Review",
+        "slug": "contract-drafting-review",
+        "imageUrl": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Airtight Contracts That Protect Your Interests",
+          "subheadline": "Drafting, negotiating, and reviewing commercial agreements designed to prevent disputes."
+        },
+        "overview": "A poorly drafted contract is an invitation to costly litigation. We craft precise, watertight commercial agreements that clearly allocate risk, define performance metrics, and protect your commercial enterprise. Every clause is tailored to your unique operational realities.",
+        "servicesIncluded": [
+          "Service level and vendor agreements",
+          "Partnership and shareholder agreements",
+          "Employment and consultancy contracts",
+          "Licensing and franchise agreements",
+          "Commercial lease and property agreements"
+        ],
+        "whyChooseUs": [
+          "Proactive risk allocation that anticipates worst-case scenarios and defaults.",
+          "Clear, unambiguous legal drafting that eliminates costly ambiguities.",
+          "Rapid turnaround times to keep fast-moving business deals on track."
+        ],
+        "faq": [
+          {
+            "question": "Why should I avoid generic contract templates found online?",
+            "answer": "Online templates rarely reflect local statutory requirements or your specific commercial exposure, often leaving major legal loopholes."
+          },
+          {
+            "question": "How do you protect confidential information within a commercial contract?",
+            "answer": "We embed robust non-disclosure, intellectual property protection, and penalty-backed confidentiality clauses into every agreement."
+          },
+          {
+            "question": "Can you help negotiate terms directly with the opposing party?",
+            "answer": "Yes, we can lead or support negotiations to ensure your business secures commercially favorable positions."
+          }
+        ],
+        "ctaPrompt": "Facing a contract matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Corporate & Commercial Law",
+          "Due Diligence & Legal Audit",
+          "Employment & Labour Law"
+        ]
+      },
+      {
+        "name": "Due Diligence & Legal Audit",
+        "slug": "due-diligence-legal-audit",
+        "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Rigorous Legal Audits & Risk Intelligence",
+          "subheadline": "Uncovering hidden liabilities and verifying corporate health before major investments."
+        },
+        "overview": "Entering investments, acquisitions, or major partnerships without deep investigative insight is a high-stakes gamble. Our legal due diligence and audit services unearth hidden liabilities, asset encumbrances, and regulatory compliance gaps, giving you total clarity before capital moves.",
+        "servicesIncluded": [
+          "Corporate and statutory compliance audits",
+          "Title and asset verification checks",
+          "Employment and labor liability reviews",
+          "Litigation and regulatory risk profiling",
+          "Comprehensive transaction due diligence reports"
+        ],
+        "whyChooseUs": [
+          "Forensic-level attention to detail across financial, structural, and legal domains.",
+          "Actionable risk mitigation recommendations included in every audit report.",
+          "Swift turnaround times tailored to aggressive transaction schedules."
+        ],
+        "faq": [
+          {
+            "question": "What is the difference between a legal audit and financial due diligence?",
+            "answer": "Legal audit focuses exclusively on statutory compliance, contracts, litigation exposure, and ownership rights, whereas financial review focuses on accounting metrics."
+          },
+          {
+            "question": "How long does a standard corporate due diligence process take?",
+            "answer": "Timelines range from one to three weeks depending on target company size and accessibility of records."
+          },
+          {
+            "question": "What red flags are most commonly uncovered during legal audits?",
+            "answer": "Common issues include expired permits, unperfected land titles, pending undisclosed litigation, and defective employment contracts."
+          }
+        ],
+        "ctaPrompt": "Facing a transaction matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Corporate & Commercial Law",
+          "Property & Real Estate Law",
+          "Corporate Governance & Regulatory Compliance"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Property & Finance",
+    "slug": "property-and-finance",
+    "practice_areas": [
+      {
+        "name": "Property & Real Estate Law",
+        "slug": "property-real-estate-law",
+        "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Secure Real Estate Transactions & Development Counsel",
+          "subheadline": "Protecting property investments through meticulous legal structuring and title protection."
+        },
+        "overview": "Real estate represents significant capital investment, requiring foolproof legal security. We guide individual buyers, commercial developers, and institutional investors through property acquisitions, leasing, development, and zoning laws. We ensure every square foot of your investment is legally unassailable.",
+        "servicesIncluded": [
+          "Commercial and residential property acquisitions and sales",
+          "Real estate development advisory and joint ventures",
+          "Commercial leasing and tenancy structuring",
+          "Construction and engineering contracts",
+          "Property dispute resolution and litigation"
+        ],
+        "whyChooseUs": [
+          "Deep insight into local land registries, title protocols, and municipal zoning laws.",
+          "Protection against fraudulent titles and hidden encumbrances.",
+          "Commercial acumen that maximizes property yield and structural security."
+        ],
+        "faq": [
+          {
+            "question": "Why is conducting a physical and registry land search critical before purchase?",
+            "answer": "It verifies true ownership, confirms whether the land is under government acquisition, and uncovers hidden mortgages or encumbrances."
+          },
+          {
+            "question": "Can foreign nationals own real estate locally?",
+            "answer": "Yes, subject to specific statutory requirements and registration protocols which we facilitate seamlessly."
+          },
+          {
+            "question": "What recourse do I have if a property seller breaches our sale agreement?",
+            "answer": "We can initiate specific performance suits or demand financial restitution and damages through court or arbitration."
+          }
+        ],
+        "ctaPrompt": "Facing a property matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Land Documentation & Title Perfection",
+          "Banking & Finance Law",
+          "Property & Real Estate Law"
+        ]
+      },
+      {
+        "name": "Land Documentation & Title Perfection",
+        "slug": "land-documentation-title-perfection",
+        "imageUrl": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Flawless Land Documentation & Title Perfection",
+          "subheadline": "Securing legal ownership rights through efficient registration and perfection processes."
+        },
+        "overview": "Owning land without completing title perfection leaves your investment vulnerable. We handle the entire chain of perfection—from Governor's consent to stamping and registration at the lands registry—giving you absolute statutory ownership security.",
+        "servicesIncluded": [
+          "Perfection of legal mortgages and deeds of assignment",
+          "Processing Governor’s Consent and statutory approvals",
+          "Certificate of Occupancy (C of O) processing and regularisation",
+          "Perfection of gifts, assents, and court vesting orders",
+          "Rectification of defective or lost land titles"
+        ],
+        "whyChooseUs": [
+          "Established relationships with land registry administration offices.",
+          "Accelerated processing timelines to eliminate unnecessary bureaucratic delays.",
+          "Comprehensive verification checks to ensure absolute title validity."
+        ],
+        "faq": [
+          {
+            "question": "What is title perfection and why is it legally mandatory?",
+            "answer": "Title perfection involves stamping, consent, and registration; without it, an instrument of transfer is legally inadmissible to prove ownership in court."
+          },
+          {
+            "question": "How long does it take to secure a Governor’s Consent?",
+            "answer": "Duration varies by state land registry procedures, but our streamlined filing protocols minimize processing timelines."
+          },
+          {
+            "question": "What documents are required to perfect a land title assignment?",
+            "answer": "Essential documents include the executed deed, root of title, tax clearance certificates, survey plans, and identification documents."
+          }
+        ],
+        "ctaPrompt": "Facing a land documentation matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Property & Real Estate Law",
+          "Banking & Finance Law",
+          "Trusts, Estates & Succession Planning"
+        ]
+      },
+      {
+        "name": "Banking & Finance Law",
+        "slug": "banking-finance-law",
+        "imageUrl": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Sophisticated Banking & Financial Transaction Counsel",
+          "subheadline": "Structuring secure financial instruments, credit facilities, and regulatory compliance frameworks."
+        },
+        "overview": "Financial transactions demand absolute precision and acute risk awareness. We represent lenders, borrowers, and financial institutions in structuring credit facilities, asset-backed lending, loan restructuring, and regulatory compliance. We balance commercial ambition with regulatory safety.",
+        "servicesIncluded": [
+          "Syndicated loan and credit facility structuring",
+          "Asset finance and equipment leasing advisory",
+          "Creation and perfection of collateral securities",
+          "Regulatory compliance for financial institutions",
+          "Debt restructuring and workout arrangements"
+        ],
+        "whyChooseUs": [
+          "Deep technical understanding of financial regulations, lending protocols, and collateral law.",
+          "Ability to balance aggressive commercial lending goals with risk protection.",
+          "Streamlined documentation processes that accelerate financial closings."
+        ],
+        "faq": [
+          {
+            "question": "What security documents are typically required for corporate loan facilities?",
+            "answer": "Common instruments include legal mortgages, debentures, corporate guarantees, and pledges of shares or movable assets."
+          },
+          {
+            "question": "Can you assist with cross-border syndicated financing?",
+            "answer": "Yes, we structure multi-jurisdictional financial arrangements aligned with international lending standards."
+          },
+          {
+            "question": "What happens during a corporate debt workout or restructuring?",
+            "answer": "We negotiate revised payment terms, covenant adjustments, and asset rescheduling between creditors and distressed borrowers."
+          }
+        ],
+        "ctaPrompt": "Facing a finance matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Debt Recovery",
+          "Property & Real Estate Law",
+          "Corporate & Commercial Law"
+        ]
+      },
+      {
+        "name": "Debt Recovery",
+        "slug": "debt-recovery",
+        "imageUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Aggressive and Lawful Debt Recovery Solutions",
+          "subheadline": "Turning delinquent accounts into liquid cash flow through swift legal intervention."
+        },
+        "overview": "Unpaid debts strangle business cash flow and operational survival. We provide structured debt recovery services—combining firm pre-action negotiation with aggressive court enforcement and receivership actions—to recover monies owed to corporations and individuals.",
+        "servicesIncluded": [
+          "Commercial debt collection and demand structuring",
+          "Enforcement of judgment debts and garnishee proceedings",
+          "Receivership and liquidation-based recoveries",
+          "Asset tracing and execution of movable/immovable property",
+          "Cross-border debt recovery coordination"
+        ],
+        "whyChooseUs": [
+          "High-success recovery framework prioritizing speed and cost-effectiveness.",
+          "Lawful, aggressive recovery tactics that compel debtor cooperation.",
+          "Comprehensive asset tracing capabilities to identify hidden debtor resources."
+        ],
+        "faq": [
+          {
+            "question": "What is the first step your firm takes when recovering a commercial debt?",
+            "answer": "We issue a formal legal demand letter, which frequently motivates debtors to settle without requiring formal court action."
+          },
+          {
+            "question": "Can you recover debts from debtors located in other jurisdictions?",
+            "answer": "Yes, through reciprocal enforcement laws and international legal network collaborations."
+          },
+          {
+            "question": "What if the debtor company claims insolvency?",
+            "answer": "We initiate statutory winding-up proceedings or appoint receivers to secure available corporate assets before distribution."
+          }
+        ],
+        "ctaPrompt": "Facing a debt matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Banking & Finance Law",
+          "Commercial Litigation",
+          "Civil Litigation"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Personal & Family",
+    "slug": "personal-and-family",
+    "practice_areas": [
+      {
+        "name": "Family Law",
+        "slug": "family-law",
+        "imageUrl": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Compassionate Counsel in Sensitive Family Matters",
+          "subheadline": "Guiding clients through divorce, child custody, and matrimonial property rights with care."
+        },
+        "overview": "Family disputes carry immense emotional weight and require a delicate yet firm legal touch. We handle matrimonial causes, child custody, adoption, and spousal maintenance with discretion and empathy. Our goal is to protect your family's future while minimizing unnecessary conflict.",
+        "servicesIncluded": [
+          "Divorce and matrimonial cause proceedings",
+          "Child custody, access, and support arrangements",
+          "Matrimonial property settlement and division",
+          "Adoption, fostering, and guardianship applications",
+          "Domestic violence protection orders"
+        ],
+        "whyChooseUs": [
+          "Empathetic, confidential handling of sensitive personal and family dynamics.",
+          "Focus on amicable settlement where possible, backed by strong courtroom advocacy if needed.",
+          "Absolute commitment to protecting the best interests of children involved."
+        ],
+        "faq": [
+          {
+            "question": "What are the legal grounds for filing for divorce?",
+            "answer": "Grounds typically include that the marriage has broken down irretrievably, proven through separation, desertion, or unreasonable behavior."
+          },
+          {
+            "question": "How do courts determine child custody arrangements?",
+            "answer": "Courts base custody decisions primarily on the welfare, emotional stability, and best interests of the child."
+          },
+          {
+            "question": "Can prenuptial agreements be legally enforced?",
+            "answer": "Prenuptial agreements carry significant persuasive weight in structuring matrimonial property distribution upon divorce."
+          }
+        ],
+        "ctaPrompt": "Facing a family matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Trusts, Estates & Succession Planning",
+          "Probate & Letters of Administration",
+          "Criminal Defence"
+        ]
+      },
+      {
+        "name": "Trusts, Estates & Succession Planning",
+        "slug": "trusts-estates-succession-planning",
+        "imageUrl": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Securing Generational Wealth & Family Legacy",
+          "subheadline": "Crafting robust wills, family trusts, and multi-generational succession plans."
+        },
+        "overview": "Accumulated wealth requires deliberate planning to survive generational transitions. We design comprehensive wills, private family trusts, and estate administration structures that protect your assets, minimize tax liabilities, and ensure seamless transfer of wealth to your heirs.",
+        "servicesIncluded": [
+          "Comprehensive will drafting and safe custody",
+          "Establishment and administration of family trusts",
+          "Estate and tax-efficient succession planning",
+          "Family business governance and generational transfer",
+          "Foundation and charity establishment"
+        ],
+        "whyChooseUs": [
+          "Strategic foresight in designing long-term wealth preservation structures.",
+          "Tailored estate plans that prevent post-mortem family litigation.",
+          "Absolute discretion and confidentiality in handling family wealth matters."
+        ],
+        "faq": [
+          {
+            "question": "What happens to my estate if I pass away without a valid will (intestate)?",
+            "answer": "Your estate will be distributed according to strict statutory formulas, which may not reflect your personal wishes."
+          },
+          {
+            "question": "Why establish a family trust instead of simply writing a will?",
+            "answer": "Trusts provide ongoing asset management, protect assets from creditors, and avoid probate delays for beneficiaries."
+          },
+          {
+            "question": "Can a will be contested after death?",
+            "answer": "Wills can be contested on grounds of lack of capacity, undue influence, or failure to provide for statutory dependents, which our drafting prevents."
+          }
+        ],
+        "ctaPrompt": "Facing a succession matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Probate & Letters of Administration",
+          "Family Law",
+          "Property & Real Estate Law"
+        ]
+      },
+      {
+        "name": "Probate & Letters of Administration",
+        "slug": "probate-letters-of-administration",
+        "imageUrl": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Efficient Probate & Estate Administration",
+          "subheadline": "Navigating court probate registries to unlock and distribute deceased estates seamlessly."
+        },
+        "overview": "Administering a deceased person's estate can be an administrative burden during a time of grief. We guide executors and family members through obtaining grants of probate or letters of administration, settling liabilities, and distributing assets to rightful beneficiaries.",
+        "servicesIncluded": [
+          "Application for Grant of Probate (with a will)",
+          "Application for Letters of Administration (intestate estates)",
+          "Estate asset inventory and valuation coordination",
+          "Discharge of estate debts and tax obligations",
+          "Final distribution and assent to beneficiaries"
+        ],
+        "whyChooseUs": [
+          "Streamlined navigation of probate registry protocols and requirements.",
+          "Efficient resolution of competing family claims or disputes.",
+          "Transparent reporting and accounting throughout the administration process."
+        ],
+        "faq": [
+          {
+            "question": "What is the difference between Probate and Letters of Administration?",
+            "answer": "Probate is granted when the deceased left a valid will naming executors, whereas Letters of Administration are granted when there is no will."
+          },
+          {
+            "question": "How long does it take to obtain a Grant of Probate?",
+            "answer": "Timelines depend on court schedules and estate complexity, but professional handling ensures smooth, expedited processing."
+          },
+          {
+            "question": "Are executors personally liable for estate debts?",
+            "answer": "Executors are generally liable only up to the value of the estate assets they handle, provided they administer the estate lawfully."
+          }
+        ],
+        "ctaPrompt": "Facing a probate matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Trusts, Estates & Succession Planning",
+          "Family Law",
+          "Property & Real Estate Law"
+        ]
+      },
+      {
+        "name": "Criminal Defence",
+        "slug": "criminal-defence",
+        "imageUrl": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Vigorous Criminal Defence & Liberty Protection",
+          "subheadline": "Defending your constitutional rights and freedom with uncompromising courtroom advocacy."
+        },
+        "overview": "Facing criminal allegations is a life-altering crisis that requires immediate, fearless legal intervention. We provide aggressive criminal defence at all court levels, protecting your liberty, challenging wrongful charges, and ensuring law enforcement respects your constitutional rights.",
+        "servicesIncluded": [
+          "Police station representation and bail applications",
+          "White-collar crime and financial fraud defence",
+          "Trial advocacy across magistrates and higher courts",
+          "Criminal appeals and post-conviction relief",
+          "Constitutional enforcement of fundamental rights against unlawful detention"
+        ],
+        "whyChooseUs": [
+          "Unflinching commitment to the presumption of innocence and client rights.",
+          "Extensive trial experience in handling complex criminal and financial investigations.",
+          "Rapid deployment for emergency arrests, detentions, and bail hearings."
+        ],
+        "faq": [
+          {
+            "question": "What should I do immediately if arrested or questioned by law enforcement?",
+            "answer": "Exercise your right to remain silent and insist on contacting your legal counsel before making any statements or signing documents."
+          },
+          {
+            "question": "Can bail be secured for serious criminal charges?",
+            "answer": "Yes, through formal bail applications demonstrating that you will attend trial and not interfere with investigations."
+          },
+          {
+            "question": "How do you handle white-collar crime investigations?",
+            "answer": "We intervene early during investigative stages with financial experts to prevent wrongful charges and manage agency interactions."
+          }
+        ],
+        "ctaPrompt": "Facing a criminal matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Constitutional & Administrative Law",
+          "Civil Litigation",
+          "Government Relations & Regulatory Advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Regulatory & Advisory",
+    "slug": "regulatory-and-advisory",
+    "practice_areas": [
+      {
+        "name": "Constitutional & Administrative Law",
+        "slug": "constitutional-administrative-law",
+        "imageUrl": "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Defending Constitutional Rights & Challenging Administrative Overreach",
+          "subheadline": "Holding public authorities accountable and protecting fundamental human liberties."
+        },
+        "overview": "Government agencies and public bodies must operate within the strict confines of the law. We challenge illegal administrative decisions, abuse of power, and regulatory overreach through judicial review and constitutional litigation, defending both individual liberties and corporate rights.",
+        "servicesIncluded": [
+          "Fundamental human rights enforcement litigation",
+          "Judicial review of administrative decisions and tribunal rulings",
+          "Public interest litigation and constitutional interpretation",
+          "Challenge of ultra vires regulatory actions",
+          "Advisory on public sector compliance and statutory powers"
+        ],
+        "whyChooseUs": [
+          "Profound mastery of constitutional jurisprudence and administrative procedures.",
+          "Courageous advocacy against institutional and governmental overreach.",
+          "Proven success in landmark public law and human rights cases."
+        ],
+        "faq": [
+          {
+            "question": "What is a judicial review action used for?",
+            "answer": "It is used to challenge the lawfulness, fairness, or procedural propriety of decisions made by public bodies or administrative tribunals."
+          },
+          {
+            "question": "Can corporations enforce fundamental human rights?",
+            "answer": "Yes, corporate entities can enforce applicable constitutional rights, such as the right to property and fair hearing."
+          },
+          {
+            "question": "What is the timeline for filing a fundamental human rights enforcement suit?",
+            "answer": "While human rights suits enjoy flexible procedural rules, they should be filed promptly upon the occurrence of the breach."
+          }
+        ],
+        "ctaPrompt": "Facing a constitutional matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Election Petition & Public Law Matters",
+          "Government Relations & Regulatory Advisory",
+          "Civil Litigation"
+        ]
+      },
+      {
+        "name": "Government Relations & Regulatory Advisory",
+        "slug": "government-relations-regulatory-advisory",
+        "imageUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Navigating Government Policy & Regulatory Frameworks",
+          "subheadline": "Bridging the gap between enterprises, regulatory bodies, and government policy makers."
+        },
+        "overview": "Navigating government policies, licensing regimes, and regulatory approvals requires strategic insight and institutional trust. We advise local and international corporations on government relations, policy advocacy, and compliance across heavily regulated sectors.",
+        "servicesIncluded": [
+          "Regulatory licensing and statutory approvals procurement",
+          "Government policy tracking and legislative advocacy",
+          "Sector-specific regulatory compliance audits",
+          "Crisis management during regulatory investigations",
+          "Public-private partnership (PPP) advisory"
+        ],
+        "whyChooseUs": [
+          "Extensive relationships and deep understanding of public sector operations.",
+          "Strategic guidance that prevents regulatory bottlenecks before they stall business.",
+          "Proactive engagement strategies aligned with national and regional legislation."
+        ],
+        "faq": [
+          {
+            "question": "How can your firm assist with securing complex government licenses?",
+            "answer": "We prepare compliant documentation, engage directly with regulatory authorities, and fast-track approval processing."
+          },
+          {
+            "question": "Do you assist with public policy advocacy for emerging industries?",
+            "answer": "Yes, we help draft policy papers and engage legislative committees on behalf of industries facing regulatory voids."
+          },
+          {
+            "question": "What should a company do if subjected to a sudden regulatory raid?",
+            "answer": "Contact our emergency advisory desk immediately to ensure statutory protocols and legal rights are strictly observed."
+          }
+        ],
+        "ctaPrompt": "Facing a regulatory matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Corporate Governance & Regulatory Compliance",
+          "Constitutional & Administrative Law",
+          "Corporate & Commercial Law"
+        ]
+      },
+      {
+        "name": "Immigration & Business Establishment Advisory",
+        "slug": "immigration-business-establishment-advisory",
+        "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Seamless Immigration & Market Entry Solutions",
+          "subheadline": "Facilitating foreign investments, work permits, and corporate establishment without friction."
+        },
+        "overview": "Establishing a business presence and deploying international talent across borders requires navigating complex immigration and investment regulations. We provide end-to-end support for foreign investors, expatriates, and corporations entering the market.",
+        "servicesIncluded": [
+          "Business incorporation and market entry advisory",
+          "Expatriate quota approvals and business permits",
+          "Temporary work permits (TWP) and Subject to Regularization (STR) visas",
+          "Permanent residency and citizenship applications",
+          "Compliance advisory for immigration audits"
+        ],
+        "whyChooseUs": [
+          "Fast, reliable processing of immigration quotas and residency documentation.",
+          "Comprehensive market entry advisory for foreign corporations.",
+          "Seamless coordination with immigration and investment promotion authorities."
+        ],
+        "faq": [
+          {
+            "question": "What approvals are required for foreign nationals wishing to establish a local business?",
+            "answer": "Foreign investors typically require business incorporation, a business permit from the Ministry of Interior, and registration with investment promotion agencies."
+          },
+          {
+            "question": "How long does it take to secure expatriate work quotas?",
+            "answer": "Timelines vary based on regulatory agency reviews, but our direct processing channels minimize operational delays."
+          },
+          {
+            "question": "Can family members accompany expatriates under work permit arrangements?",
+            "answer": "Yes, dependent resident visas can be secured concurrently for immediate family members."
+          }
+        ],
+        "ctaPrompt": "Facing an immigration matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Corporate & Commercial Law",
+          "Government Relations & Regulatory Advisory",
+          "Employment & Labour Law"
+        ]
+      },
+      {
+        "name": "Employment & Labour Law",
+        "slug": "employment-labour-law",
+        "imageUrl": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Balanced Employment Law & Workplace Advisory",
+          "subheadline": "Harmonizing employer-employee relations while mitigating labor liabilities."
+        },
+        "overview": "Workforce management requires careful navigation of labor statutes, employment contracts, and trade union dynamics. We advise employers and senior executives on workplace policies, contract disputes, wrongful termination claims, and industrial relations.",
+        "servicesIncluded": [
+          "Employment contract and handbook drafting",
+          "Executive compensation and severance structuring",
+          "Wrongful termination and unfair dismissal defense",
+          "Trade union negotiations and industrial dispute resolution",
+          "Workplace policy audits (anti-harassment, data privacy)"
+        ],
+        "whyChooseUs": [
+          "Balanced expertise representing both corporate employers and senior personnel.",
+          "Up-to-date knowledge of evolving labor legislation and industrial court rulings.",
+          "Proactive dispute prevention strategies that avoid costly labor strikes or litigation."
+        ],
+        "faq": [
+          {
+            "question": "What statutory steps are mandatory before terminating an employee for redundancy?",
+            "answer": "Employers must consult affected unions or staff, follow last-in, first-out principles, and provide statutory notice and redundancy pay."
+          },
+          {
+            "question": "Are non-compete clauses in employment contracts enforceable?",
+            "answer": "Non-compete clauses are enforceable only if they are reasonable in scope, geography, and duration to protect legitimate business interests."
+          },
+          {
+            "question": "Which court handles employment and labor disputes?",
+            "answer": "Labor and employment disputes fall under the exclusive jurisdiction of specialized industrial courts."
+          }
+        ],
+        "ctaPrompt": "Facing an employment matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Contract Drafting & Review",
+          "Corporate & Commercial Law",
+          "Civil Litigation"
+        ]
+      },
+      {
+        "name": "Intellectual Property",
+        "slug": "intellectual-property",
+        "imageUrl": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Protecting Your Innovations & Brand Equity",
+          "subheadline": "Securing trademarks, patents, and copyrights to safeguard your intellectual assets."
+        },
+        "overview": "In a knowledge-driven economy, intellectual property is often a company's most valuable asset. We help creators, innovators, and corporations protect, commercialize, and enforce their intellectual property rights both locally and globally.",
+        "servicesIncluded": [
+          "Trademark, patent, and industrial design registration",
+          "Copyright advisory and enforcement",
+          "IP licensing, franchising, and assignment agreements",
+          "Infringement litigation and opposition proceedings",
+          "Brand portfolio management and audits"
+        ],
+        "whyChooseUs": [
+          "Comprehensive protection strategies covering filing, maintenance, and litigation.",
+          "Deep expertise in commercializing intellectual property assets.",
+          "Vigilant monitoring against brand theft, counterfeiting, and infringement."
+        ],
+        "faq": [
+          {
+            "question": "How long does a trademark registration last before renewal?",
+            "answer": "Initial trademark registration typically lasts for seven years and is renewable indefinitely for subsequent fourteen-year periods."
+          },
+          {
+            "question": "What is the difference between a patent and a copyright?",
+            "answer": "Patents protect inventions and technical processes, whereas copyrights protect original literary, artistic, musical, or software expressions."
+          },
+          {
+            "question": "Can my local trademark protection be extended internationally?",
+            "answer": "Yes, through international treaties and regional filing systems which we coordinate for global protection."
+          }
+        ],
+        "ctaPrompt": "Facing an IP matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Corporate & Commercial Law",
+          "Contract Drafting & Review",
+          "Commercial Litigation"
+        ]
+      },
+      {
+        "name": "Legal Opinions",
+        "slug": "legal-opinions",
+        "imageUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Authoritative Legal Opinions & Risk Analysis",
+          "subheadline": "Delivering objective, expert legal analysis for critical business and investment decisions."
+        },
+        "overview": "Complex transactions, regulatory uncertainties, and high-stakes disputes often require independent, authoritative legal evaluation. We provide comprehensive, well-reasoned legal opinions that guide corporate boards, investors, and individuals through ambiguous legal terrain.",
+        "servicesIncluded": [
+          "Statutory interpretation and compliance opinions",
+          "Transactional risk assessment opinions",
+          "Second-opinion advisory on ongoing litigation",
+          "Cross-border legal viability assessments",
+          "Expert legal reports for corporate governance boards"
+        ],
+        "whyChooseUs": [
+          "Rigorous legal research backed by decades of courtroom and advisory experience.",
+          "Unbiased, objective analysis designed to withstand judicial and regulatory scrutiny.",
+          "Clear, actionable conclusions that empower decisive executive leadership."
+        ],
+        "faq": [
+          {
+            "question": "When would my business require a formal legal opinion?",
+            "answer": "Legal opinions are essential before entering major transactions, launching new products in regulated sectors, or resolving internal board disputes."
+          },
+          {
+            "question": "Are your legal opinions admissible in court or arbitration proceedings?",
+            "answer": "While opinions are primarily advisory for clients, they establish due diligence and can serve as expert submissions in specific proceedings."
+          },
+          {
+            "question": "How quickly can your firm deliver a comprehensive legal opinion?",
+            "answer": "Timelines vary with complexity, but we offer expedited turnaround options for urgent commercial decisions."
+          }
+        ],
+        "ctaPrompt": "Facing a legal matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Regulatory & Advisory",
+          "Legal Opinions",
+          "Corporate & Commercial Law"
+        ]
+      },
+      {
+        "name": "Notarial Services",
+        "slug": "notarial-services",
+        "imageUrl": "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Certified Notarial Services & Document Authentication",
+          "subheadline": "Officially authenticating documents for international recognition and cross-border use."
+        },
+        "overview": "Documents destined for use outside the country require formal notarization to gain international legal validity. Our licensed notaries public authenticate signatures, certify copies, and prepare official notarial acts for personal and corporate documents.",
+        "servicesIncluded": [
+          "Notarization of commercial and corporate documents",
+          "Certification of true copies of passports, certificates, and contracts",
+          "Authentication of affidavits, powers of attorney, and statutory declarations",
+          "Facilitation of apostille and consular legalization processes",
+          "Verification of corporate identity for international transactions"
+        ],
+        "whyChooseUs": [
+          "Officially accredited Notaries Public with recognized international standing.",
+          "Fast, reliable turnaround for urgent international document authentication.",
+          "Flawless adherence to foreign embassy and international registry standards."
+        ],
+        "faq": [
+          {
+            "question": "What documents typically require notarial certification?",
+            "answer": "Common documents include academic certificates, corporate resolutions, powers of attorney, commercial invoices, and adoption papers."
+          },
+          {
+            "question": "What is the difference between notarization and legalization/apostille?",
+            "answer": "Notarization authenticates the document locally by a notary, whereas legalization or apostille prepares it for recognition in foreign countries."
+          },
+          {
+            "question": "Do I need to appear in person for notarial services?",
+            "answer": "Yes, signatories must appear in person before the notary with valid government-issued identification for identity verification."
+          }
+        ],
+        "ctaPrompt": "Facing a notarial matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Corporate & Commercial Law",
+          "Immigration & Business Establishment Advisory",
+          "Legal Opinions"
+        ]
+      },
+      {
+        "name": "General Legal Consultancy",
+        "slug": "general-legal-consultancy",
+        "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Trusted General Legal Consultancy & Advisory",
+          "subheadline": "Providing agile, on-demand legal counsel for everyday personal and business needs."
+        },
+        "overview": "Not every legal issue fits neatly into a specialized box. We provide flexible, general legal consultancy for clients seeking sound guidance on day-to-day legal questions, risk management, and strategic personal or business decisions.",
+        "servicesIncluded": [
+          "General legal health checks and risk assessments",
+          "Ad-hoc advisory on business and personal matters",
+          "Referral coordination to specialized legal experts",
+          "Personal legal counseling and strategic planning",
+          "Ongoing retainer consultancy arrangements"
+        ],
+        "whyChooseUs": [
+          "Broad multidisciplinary expertise spanning all core areas of law.",
+          "Accessible, practical advice tailored to your immediate circumstances.",
+          "Cost-effective consultation models designed for maximum client flexibility."
+        ],
+        "faq": [
+          {
+            "question": "How does a general legal consultancy retainer work?",
+            "answer": "Clients pay a fixed monthly fee for a set number of advisory hours, ensuring instant access to legal counsel whenever needed."
+          },
+          {
+            "question": "Can you handle specialized matters under general consultancy?",
+            "answer": "For highly specialized litigation or complex transactions, we seamlessly transition your matter to our dedicated practice area teams."
+          },
+          {
+            "question": "Is my initial consultation confidential?",
+            "answer": "Yes, all communications are strictly protected by solicitor-client privilege."
+          }
+        ],
+        "ctaPrompt": "Facing a legal matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Corporate & Commercial Law",
+          "Civil Litigation",
+          "Legal Opinions"
+        ]
+      }
+    ]
+  }
+]

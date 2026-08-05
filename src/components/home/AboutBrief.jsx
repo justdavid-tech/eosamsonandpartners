@@ -5,10 +5,7 @@ export default function AboutBrief() {
         {/* Image side */}
         <div className="relative order-2 lg:order-1">
           <div className="aspect-[4/5] relative">
-            {/*
-              TODO: replace with real photo, e.g.:
-              <img src="/images/founder-portrait.jpg" alt="E-O Samson, Esq." className="w-full h-full object-cover" />
-            */}
+              <img src="/ceo.jpg" alt="E-O Samson, Esq., FICMC, AICMC, LL.M, B.L." className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-navy/[0.04] border border-navy/10 flex items-center justify-center">
               <span className="font-display text-navy/[0.08] text-[9rem] leading-none select-none">
                 &sect;
