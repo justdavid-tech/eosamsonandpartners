@@ -23,7 +23,7 @@ export const metadata = {
     siteName: "E-O Samson & Partners",
     images: [
       {
-        url: "/logo.png",
+        url: "https://eosamsonandpartners.vercel.app/logo.png",
         width: 1200,
         height: 630,
         alt: "E-O Samson & Partners Logo",
@@ -36,7 +36,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "E-O Samson & Partners | Excellence in Advocacy",
     description: "Excellence in Advocacy. Integrity in Service. A premier law firm providing strategic legal counsel.",
-    images: ["/logo.png"],
+    images: ["https://eosamsonandpartners.vercel.app/logo.png"],
   },
   icons: {
     icon: "/logo.png",
