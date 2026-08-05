@@ -40,7 +40,14 @@ const portableTextComponents = {
 
 export default async function PostPage({ params }) {
   const { slug } = await params;
-  const post = await client.fetch(postBySlugQuery, { slug });
+  let post = null;
+  if (process.env.NEXT_PUBLIC_SANITY_PROJECT_ID && process.env.NEXT_PUBLIC_SANITY_DATASET) {
+    try {
+      post = await client.fetch(postBySlugQuery, { slug });
+    } catch (err) {
+      console.error("Sanity fetch error in dynamic post page:", err);
+    }
+  }
 
   if (!post) {
     return (

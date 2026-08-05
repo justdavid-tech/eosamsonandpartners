@@ -6,7 +6,14 @@ import Section from "@/components/layout/Section";
 export const dynamic = "force-dynamic";
 
 export default async function InsightsPage() {
-  const posts = await client.fetch(allPostsQuery);
+  let posts = [];
+  if (process.env.NEXT_PUBLIC_SANITY_PROJECT_ID && process.env.NEXT_PUBLIC_SANITY_DATASET) {
+    try {
+      posts = await client.fetch(allPostsQuery);
+    } catch (err) {
+      console.error("Sanity fetch error in insights page:", err);
+    }
+  }
 
   return (
     <div>

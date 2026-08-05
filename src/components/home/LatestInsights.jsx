@@ -3,7 +3,14 @@ import { latestPostsQuery } from "@/lib/sanity/queries";
 import { urlFor } from "@/lib/sanity/image";
 
 export default async function LatestInsights() {
-  const posts = await client.fetch(latestPostsQuery);
+  let posts = [];
+  if (process.env.NEXT_PUBLIC_SANITY_PROJECT_ID && process.env.NEXT_PUBLIC_SANITY_DATASET) {
+    try {
+      posts = await client.fetch(latestPostsQuery);
+    } catch (err) {
+      console.error("Sanity fetch error in LatestInsights component:", err);
+    }
+  }
 
   if (!posts?.length) return null;
 
