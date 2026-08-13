@@ -1,6 +1,223 @@
 [
   {
-    "category": "Litigation & Dispute Resolution",
+    "category": "Personal & Family",
+    "slug": "personal-and-family",
+    "practice_areas": [
+      {
+        "name": "Wealth & Asset Protection",
+        "slug": "wealth-asset-protection",
+        "imageUrl": "https://images.unsplash.com/photo-1579621970795-87faff3f68b8?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Wealth & Asset Protection",
+          "subheadline": "We help individuals, families, entrepreneurs, and businesses protect, preserve, and transfer their wealth with confidence."
+        },
+        "overview": "We help individuals, families, entrepreneurs, and businesses protect, preserve, and transfer their wealth with confidence. Our wealth and asset protection services are designed to safeguard clients' assets from unnecessary legal risks while ensuring efficient succession and long-term financial security.",
+        "servicesIncluded": [
+          "Asset protection planning and legal structuring",
+          "Estate and succession planning",
+          "Trust creation, administration, and advisory services",
+          "Family wealth preservation strategies",
+          "Business succession planning",
+          "Property and investment protection",
+          "Corporate restructuring for asset protection",
+          "Drafting of Wills, Trust Deeds, and related legal instruments",
+          "Legal due diligence on high-value assets",
+          "Advisory services on inheritance, probate, and estate administration"
+        ],
+        "whyChooseUs": [
+          "Confidential, comprehensive planning tailored to your unique legacy preservation goals.",
+          "Strategic due diligence on high-value assets and legal structuring to mitigate risk.",
+          "Decisive advisory on estate planning, trust administration, and succession options."
+        ],
+        "faq": [
+          {
+            "question": "What does wealth and asset protection involve?",
+            "answer": "It involves analyzing potential liabilities and putting legal structures (such as trusts or corporate entities) in place to protect assets from claims and ensure seamless inheritance."
+          },
+          {
+            "question": "How do trust creation and administration assist in wealth preservation?",
+            "answer": "Trusts hold assets for the benefit of heirs, avoiding complex probate registry procedures and protecting the wealth from external disputes."
+          }
+        ],
+        "ctaPrompt": "Ready to protect your legacy? Consult our specialists today.",
+        "relatedPracticeAreas": [
+          "Trusts, Estates & Succession Planning",
+          "Corporate Governance & Regulatory Compliance",
+          "Property & Real Estate Law"
+        ]
+      },
+      {
+        "name": "Family Law",
+        "slug": "family-law",
+        "imageUrl": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Compassionate Counsel in Sensitive Family Matters",
+          "subheadline": "Guiding clients through divorce, child custody, and matrimonial property rights with care."
+        },
+        "overview": "Family disputes carry immense emotional weight and require a delicate yet firm legal touch. We handle matrimonial causes, child custody, adoption, and spousal maintenance with discretion and empathy. Our goal is to protect your family's future while minimizing unnecessary conflict.",
+        "servicesIncluded": [
+          "Divorce and matrimonial cause proceedings",
+          "Child custody, access, and support arrangements",
+          "Matrimonial property settlement and division",
+          "Adoption, fostering, and guardianship applications",
+          "Domestic violence protection orders"
+        ],
+        "whyChooseUs": [
+          "Empathetic, confidential handling of sensitive personal and family dynamics.",
+          "Focus on amicable settlement where possible, backed by strong courtroom advocacy if needed.",
+          "Absolute commitment to protecting the best interests of children involved."
+        ],
+        "faq": [
+          {
+            "question": "What are the legal grounds for filing for divorce?",
+            "answer": "Grounds typically include that the marriage has broken down irretrievably, proven through separation, desertion, or unreasonable behavior."
+          },
+          {
+            "question": "How do courts determine child custody arrangements?",
+            "answer": "Courts base custody decisions primarily on the welfare, emotional stability, and best interests of the child."
+          },
+          {
+            "question": "Can prenuptial agreements be legally enforced?",
+            "answer": "Prenuptial agreements carry significant persuasive weight in structuring matrimonial property distribution upon divorce."
+          }
+        ],
+        "ctaPrompt": "Facing a family matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Trusts, Estates & Succession Planning",
+          "Probate & Letters of Administration",
+          "Criminal Defence"
+        ]
+      },
+      {
+        "name": "Trusts, Estates & Succession Planning",
+        "slug": "trusts-estates-succession-planning",
+        "imageUrl": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Securing Generational Wealth & Family Legacy",
+          "subheadline": "Crafting robust wills, family trusts, and multi-generational succession plans."
+        },
+        "overview": "Accumulated wealth requires deliberate planning to survive generational transitions. We design comprehensive wills, private family trusts, and estate administration structures that protect your assets, minimize tax liabilities, and ensure seamless transfer of wealth to your heirs.",
+        "servicesIncluded": [
+          "Comprehensive will drafting and safe custody",
+          "Establishment and administration of family trusts",
+          "Estate and tax-efficient succession planning",
+          "Family business governance and generational transfer",
+          "Foundation and charity establishment"
+        ],
+        "whyChooseUs": [
+          "Strategic foresight in designing long-term wealth preservation structures.",
+          "Tailored estate plans that prevent post-mortem family litigation.",
+          "Absolute discretion and confidentiality in handling family wealth matters."
+        ],
+        "faq": [
+          {
+            "question": "What happens to my estate if I pass away without a valid will (intestate)?",
+            "answer": "Your estate will be distributed according to strict statutory formulas, which may not reflect your personal wishes."
+          },
+          {
+            "question": "Why establish a family trust instead of simply writing a will?",
+            "answer": "Trusts provide ongoing asset management, protect assets from creditors, and avoid probate delays for beneficiaries."
+          },
+          {
+            "question": "Can a will be contested after death?",
+            "answer": "Wills can be contested on grounds of lack of capacity, undue influence, or failure to provide for statutory dependents, which our drafting prevents."
+          }
+        ],
+        "ctaPrompt": "Facing a succession matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Probate & Letters of Administration",
+          "Family Law",
+          "Property & Real Estate Law"
+        ]
+      },
+      {
+        "name": "Probate & Letters of Administration",
+        "slug": "probate-letters-of-administration",
+        "imageUrl": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Efficient Probate & Estate Administration",
+          "subheadline": "Navigating court probate registries to unlock and distribute deceased estates seamlessly."
+        },
+        "overview": "Administering a deceased person's estate can be an administrative burden during a time of grief. We guide executors and family members through obtaining grants of probate or letters of administration, settling liabilities, and distributing assets to rightful beneficiaries.",
+        "servicesIncluded": [
+          "Application for Grant of Probate (with a will)",
+          "Application for Letters of Administration (intestate estates)",
+          "Estate asset inventory and valuation coordination",
+          "Discharge of estate debts and tax obligations",
+          "Final distribution and assent to beneficiaries"
+        ],
+        "whyChooseUs": [
+          "Streamlined navigation of probate registry protocols and requirements.",
+          "Efficient resolution of competing family claims or disputes.",
+          "Transparent reporting and accounting throughout the administration process."
+        ],
+        "faq": [
+          {
+            "question": "What is the difference between Probate and Letters of Administration?",
+            "answer": "Probate is granted when the deceased left a valid will naming executors, whereas Letters of Administration are granted when there is no will."
+          },
+          {
+            "question": "How long does it take to obtain a Grant of Probate?",
+            "answer": "Timelines depend on court schedules and estate complexity, but professional handling ensures smooth, expedited processing."
+          },
+          {
+            "question": "Are executors personally liable for estate debts?",
+            "answer": "Executors are generally liable only up to the value of the estate assets they handle, provided they administer the estate lawfully."
+          }
+        ],
+        "ctaPrompt": "Facing a probate matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Trusts, Estates & Succession Planning",
+          "Family Law",
+          "Property & Real Estate Law"
+        ]
+      },
+      {
+        "name": "Criminal Defence",
+        "slug": "criminal-defence",
+        "imageUrl": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1200&q=80",
+        "hero": {
+          "headline": "Vigorous Criminal Defence & Liberty Protection",
+          "subheadline": "Defending your constitutional rights and freedom with uncompromising courtroom advocacy."
+        },
+        "overview": "Facing criminal allegations is a life-altering crisis that requires immediate, fearless legal intervention. We provide aggressive criminal defence at all court levels, protecting your liberty, challenging wrongful charges, and ensuring law enforcement respects your constitutional rights.",
+        "servicesIncluded": [
+          "Police station representation and bail applications",
+          "White-collar crime and financial fraud defence",
+          "Trial advocacy across magistrates and higher courts",
+          "Criminal appeals and post-conviction relief",
+          "Constitutional enforcement of fundamental rights against unlawful detention"
+        ],
+        "whyChooseUs": [
+          "Unflinching commitment to the presumption of innocence and client rights.",
+          "Extensive trial experience in handling complex criminal and financial investigations.",
+          "Rapid deployment for emergency arrests, detentions, and bail hearings."
+        ],
+        "faq": [
+          {
+            "question": "What should I do immediately if arrested or questioned by law enforcement?",
+            "answer": "Exercise your right to remain silent and insist on contacting your legal counsel before making any statements or signing documents."
+          },
+          {
+            "question": "Can bail be secured for serious criminal charges?",
+            "answer": "Yes, through formal bail applications demonstrating that you will attend trial and not interfere with investigations."
+          },
+          {
+            "question": "How do you handle white-collar crime investigations?",
+            "answer": "We intervene early during investigative stages with financial experts to prevent wrongful charges and manage agency interactions."
+          }
+        ],
+        "ctaPrompt": "Facing a criminal matter? Speak with our team today.",
+        "relatedPracticeAreas": [
+          "Constitutional & Administrative Law",
+          "Civil Litigation",
+          "Government Relations & Regulatory Advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Litigation & other Alternative Dispute Resolutions",
     "slug": "litigation-and-dispute-resolution",
     "practice_areas": [
       {
@@ -559,180 +776,6 @@
           "Banking & Finance Law",
           "Commercial Litigation",
           "Civil Litigation"
-        ]
-      }
-    ]
-  },
-  {
-    "category": "Personal & Family",
-    "slug": "personal-and-family",
-    "practice_areas": [
-      {
-        "name": "Family Law",
-        "slug": "family-law",
-        "imageUrl": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1200&q=80",
-        "hero": {
-          "headline": "Compassionate Counsel in Sensitive Family Matters",
-          "subheadline": "Guiding clients through divorce, child custody, and matrimonial property rights with care."
-        },
-        "overview": "Family disputes carry immense emotional weight and require a delicate yet firm legal touch. We handle matrimonial causes, child custody, adoption, and spousal maintenance with discretion and empathy. Our goal is to protect your family's future while minimizing unnecessary conflict.",
-        "servicesIncluded": [
-          "Divorce and matrimonial cause proceedings",
-          "Child custody, access, and support arrangements",
-          "Matrimonial property settlement and division",
-          "Adoption, fostering, and guardianship applications",
-          "Domestic violence protection orders"
-        ],
-        "whyChooseUs": [
-          "Empathetic, confidential handling of sensitive personal and family dynamics.",
-          "Focus on amicable settlement where possible, backed by strong courtroom advocacy if needed.",
-          "Absolute commitment to protecting the best interests of children involved."
-        ],
-        "faq": [
-          {
-            "question": "What are the legal grounds for filing for divorce?",
-            "answer": "Grounds typically include that the marriage has broken down irretrievably, proven through separation, desertion, or unreasonable behavior."
-          },
-          {
-            "question": "How do courts determine child custody arrangements?",
-            "answer": "Courts base custody decisions primarily on the welfare, emotional stability, and best interests of the child."
-          },
-          {
-            "question": "Can prenuptial agreements be legally enforced?",
-            "answer": "Prenuptial agreements carry significant persuasive weight in structuring matrimonial property distribution upon divorce."
-          }
-        ],
-        "ctaPrompt": "Facing a family matter? Speak with our team today.",
-        "relatedPracticeAreas": [
-          "Trusts, Estates & Succession Planning",
-          "Probate & Letters of Administration",
-          "Criminal Defence"
-        ]
-      },
-      {
-        "name": "Trusts, Estates & Succession Planning",
-        "slug": "trusts-estates-succession-planning",
-        "imageUrl": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80",
-        "hero": {
-          "headline": "Securing Generational Wealth & Family Legacy",
-          "subheadline": "Crafting robust wills, family trusts, and multi-generational succession plans."
-        },
-        "overview": "Accumulated wealth requires deliberate planning to survive generational transitions. We design comprehensive wills, private family trusts, and estate administration structures that protect your assets, minimize tax liabilities, and ensure seamless transfer of wealth to your heirs.",
-        "servicesIncluded": [
-          "Comprehensive will drafting and safe custody",
-          "Establishment and administration of family trusts",
-          "Estate and tax-efficient succession planning",
-          "Family business governance and generational transfer",
-          "Foundation and charity establishment"
-        ],
-        "whyChooseUs": [
-          "Strategic foresight in designing long-term wealth preservation structures.",
-          "Tailored estate plans that prevent post-mortem family litigation.",
-          "Absolute discretion and confidentiality in handling family wealth matters."
-        ],
-        "faq": [
-          {
-            "question": "What happens to my estate if I pass away without a valid will (intestate)?",
-            "answer": "Your estate will be distributed according to strict statutory formulas, which may not reflect your personal wishes."
-          },
-          {
-            "question": "Why establish a family trust instead of simply writing a will?",
-            "answer": "Trusts provide ongoing asset management, protect assets from creditors, and avoid probate delays for beneficiaries."
-          },
-          {
-            "question": "Can a will be contested after death?",
-            "answer": "Wills can be contested on grounds of lack of capacity, undue influence, or failure to provide for statutory dependents, which our drafting prevents."
-          }
-        ],
-        "ctaPrompt": "Facing a succession matter? Speak with our team today.",
-        "relatedPracticeAreas": [
-          "Probate & Letters of Administration",
-          "Family Law",
-          "Property & Real Estate Law"
-        ]
-      },
-      {
-        "name": "Probate & Letters of Administration",
-        "slug": "probate-letters-of-administration",
-        "imageUrl": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=1200&q=80",
-        "hero": {
-          "headline": "Efficient Probate & Estate Administration",
-          "subheadline": "Navigating court probate registries to unlock and distribute deceased estates seamlessly."
-        },
-        "overview": "Administering a deceased person's estate can be an administrative burden during a time of grief. We guide executors and family members through obtaining grants of probate or letters of administration, settling liabilities, and distributing assets to rightful beneficiaries.",
-        "servicesIncluded": [
-          "Application for Grant of Probate (with a will)",
-          "Application for Letters of Administration (intestate estates)",
-          "Estate asset inventory and valuation coordination",
-          "Discharge of estate debts and tax obligations",
-          "Final distribution and assent to beneficiaries"
-        ],
-        "whyChooseUs": [
-          "Streamlined navigation of probate registry protocols and requirements.",
-          "Efficient resolution of competing family claims or disputes.",
-          "Transparent reporting and accounting throughout the administration process."
-        ],
-        "faq": [
-          {
-            "question": "What is the difference between Probate and Letters of Administration?",
-            "answer": "Probate is granted when the deceased left a valid will naming executors, whereas Letters of Administration are granted when there is no will."
-          },
-          {
-            "question": "How long does it take to obtain a Grant of Probate?",
-            "answer": "Timelines depend on court schedules and estate complexity, but professional handling ensures smooth, expedited processing."
-          },
-          {
-            "question": "Are executors personally liable for estate debts?",
-            "answer": "Executors are generally liable only up to the value of the estate assets they handle, provided they administer the estate lawfully."
-          }
-        ],
-        "ctaPrompt": "Facing a probate matter? Speak with our team today.",
-        "relatedPracticeAreas": [
-          "Trusts, Estates & Succession Planning",
-          "Family Law",
-          "Property & Real Estate Law"
-        ]
-      },
-      {
-        "name": "Criminal Defence",
-        "slug": "criminal-defence",
-        "imageUrl": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1200&q=80",
-        "hero": {
-          "headline": "Vigorous Criminal Defence & Liberty Protection",
-          "subheadline": "Defending your constitutional rights and freedom with uncompromising courtroom advocacy."
-        },
-        "overview": "Facing criminal allegations is a life-altering crisis that requires immediate, fearless legal intervention. We provide aggressive criminal defence at all court levels, protecting your liberty, challenging wrongful charges, and ensuring law enforcement respects your constitutional rights.",
-        "servicesIncluded": [
-          "Police station representation and bail applications",
-          "White-collar crime and financial fraud defence",
-          "Trial advocacy across magistrates and higher courts",
-          "Criminal appeals and post-conviction relief",
-          "Constitutional enforcement of fundamental rights against unlawful detention"
-        ],
-        "whyChooseUs": [
-          "Unflinching commitment to the presumption of innocence and client rights.",
-          "Extensive trial experience in handling complex criminal and financial investigations.",
-          "Rapid deployment for emergency arrests, detentions, and bail hearings."
-        ],
-        "faq": [
-          {
-            "question": "What should I do immediately if arrested or questioned by law enforcement?",
-            "answer": "Exercise your right to remain silent and insist on contacting your legal counsel before making any statements or signing documents."
-          },
-          {
-            "question": "Can bail be secured for serious criminal charges?",
-            "answer": "Yes, through formal bail applications demonstrating that you will attend trial and not interfere with investigations."
-          },
-          {
-            "question": "How do you handle white-collar crime investigations?",
-            "answer": "We intervene early during investigative stages with financial experts to prevent wrongful charges and manage agency interactions."
-          }
-        ],
-        "ctaPrompt": "Facing a criminal matter? Speak with our team today.",
-        "relatedPracticeAreas": [
-          "Constitutional & Administrative Law",
-          "Civil Litigation",
-          "Government Relations & Regulatory Advisory"
         ]
       }
     ]

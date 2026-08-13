@@ -26,9 +26,7 @@ export default function WhyTrustUs() {
           <div className="lg:sticky lg:top-28">
             <p className="eyebrow mb-6">Why Clients Trust Us</p>
             <blockquote className="font-display text-2xl md:text-3xl leading-[1.35] text-white mb-6">
-              &ldquo;Our role isn&rsquo;t just to interpret the law, it&rsquo;s to protect
-              what our clients have worked to build, with judgment earned
-              over two decades in practice.&rdquo;
+              &ldquo;we understand that every legal matter is important because it affects lives, businesses, families, and reputations. We are committed to delivering legal services with excellence, integrity, and professionalism.&rdquo;
             </blockquote>
             <div className="flex items-center gap-3">
               <div className="w-10 h-px bg-brass" />

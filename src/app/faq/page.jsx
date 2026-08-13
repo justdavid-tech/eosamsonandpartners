@@ -3,113 +3,59 @@ import FAQAccordion from "@/components/practice-areas/FAQAccordion";
 const faqGroups = [
   {
     id: "general",
-    title: "General",
+    title: "General Advisory",
     faqs: [
       {
-        question: "What areas of law does E-O Samson & Partners practice?",
-        answer: "We handle a broad range of practice areas including litigation & dispute resolution, corporate and commercial law, property and real estate transactions, family law, criminal defence, and regulatory advisory. Visit our Practice Areas page for a detailed list of our legal offerings.",
+        question: "What areas of law does E-O Samson & Partners practise?",
+        answer: "We provide legal services across litigation, real estate, commercial law, dispute resolution, succession and estate planning, and general legal advisory.",
       },
       {
-        question: "Where is your office located?",
-        answer: "Our head office is located at 1, Ondo Street, Garki, FCT, Abuja, Nigeria. Visit our Contact page for interactive map directions, business hours, and phone directory.",
+        question: "Do I need a lawyer before taking legal action?",
+        answer: "It is advisable to seek legal advice before commencing or responding to legal proceedings. Early advice can help you understand your rights, obligations, and available options.",
       },
       {
-        question: "Do you handle matters outside Abuja?",
-        answer: "Yes. E-O Samson & Partners regularly represents clients in courts and commercial transactions across Lagos, Port Harcourt, Kaduna, and other key jurisdictions throughout Nigeria, depending on the scope of the engagement.",
+        question: "Can you handle matters outside Abuja?",
+        answer: "Yes. We handle matters across Nigeria, subject to the nature and location of the matter.",
       },
       {
-        question: "Are you available for urgent briefs or emergency representation?",
-        answer: "Yes, we maintain a responsive legal team capable of handling time-sensitive briefs, including urgent interim injunctions, bail applications, and critical corporate regulatory deadlines.",
+        question: "Can I get legal advice without immediately commencing a case?",
+        answer: "Yes. We provide legal consultations and advisory services to help clients understand their legal position and make informed decisions.",
+      },
+      {
+        question: "Will my information be kept confidential?",
+        answer: "Yes. Client confidentiality and professional responsibility are fundamental to our practice.",
+      },
+      {
+        question: "What should I do if I have a legal problem?",
+        answer: "Seek legal advice as early as possible. Early intervention can help preserve evidence, protect your rights, and identify practical solutions before the matter becomes more complicated.",
       },
     ],
   },
   {
-    id: "consultation",
-    title: "Consultation",
+    id: "engagement",
+    title: "Engagement & Fees",
     faqs: [
       {
-        question: "How do I book a consultation?",
-        answer: "You can book directly through our website using the Book Consultation portal, or reach out by calling our office line or messaging us directly on WhatsApp.",
+        question: "How do I engage the firm?",
+        answer: "You may contact us by phone, email, or through our website to discuss your legal needs and schedule a consultation.",
       },
       {
-        question: "Do you offer remote or virtual consultations?",
-        answer: "Yes, we conduct virtual consultations via Zoom, Microsoft Teams, Google Meet, or phone calls for international clients and those residing outside Abuja.",
-      },
-      {
-        question: "How long does a consultation take?",
-        answer: "Initial consultations typically last between 30 to 45 minutes. This provides sufficient time to review your case facts, analyze key documents, and outline potential legal strategies.",
-      },
-      {
-        question: "What should I bring to my first consultation?",
-        answer: "Please bring all relevant documents, including contracts, correspondence, court notices, land titles, or agreements. Having these documents on hand allows us to provide a more accurate assessment of your matter.",
+        question: "How much do your legal services cost?",
+        answer: "Legal fees depend on the nature, complexity, value, and scope of the matter. We discuss the applicable professional fees and terms with clients before undertaking an engagement.",
       },
     ],
   },
   {
-    id: "fees",
-    title: "Fees",
+    id: "specialized",
+    title: "Specialized Services",
     faqs: [
       {
-        question: "How are your legal fees structured?",
-        answer: "Our fees are structured based on the nature of the service. We utilize flat fees for standard filings (such as company incorporation or deed registration), hourly rates for complex commercial transactions, and retainer structures for ongoing corporate advisory.",
+        question: "How do I know if I need a Will or a trust?",
+        answer: "The appropriate succession structure depends on your assets, family circumstances, objectives, and long-term plans. We can advise you on the most suitable structure.",
       },
       {
-        question: "Do you charge for the initial consultation?",
-        answer: "Yes, initial consultations are subject to a professional consultation fee, which covers the preliminary review of documents and initial strategic legal advice. This fee is discussed and agreed upon prior to booking.",
-      },
-      {
-        question: "Do you offer flexible payment arrangements?",
-        answer: "Yes, for extended litigation briefs or commercial transactions, we offer structured payment plans. These arrangements are formalized in our retainer agreement before work commences.",
-      },
-    ],
-  },
-  {
-    id: "corporate",
-    title: "Corporate",
-    faqs: [
-      {
-        question: "Can you assist with CAC company incorporation?",
-        answer: "Yes, we handle the entire registration process with the Corporate Affairs Commission (CAC) for private limited companies, public companies, NGOs, and business names, along with post-incorporation filings.",
-      },
-      {
-        question: "Do you review or draft commercial contracts?",
-        answer: "Yes. We draft, review, and negotiate a wide range of commercial agreements, including Joint Venture agreements, partnership deeds, service level agreements (SLAs), and non-disclosure agreements (NDAs).",
-      },
-      {
-        question: "What company secretarial services do you provide?",
-        answer: "We offer ongoing board secretarial services, statutory filing maintenance, filing of annual returns, recording of board resolutions, and representation during statutory audits.",
-      },
-    ],
-  },
-  {
-    id: "property",
-    title: "Property",
-    faqs: [
-      {
-        question: "Can you help verify land titles before purchase?",
-        answer: "Yes, we conduct comprehensive due diligence searches at the AGIS (Abuja Geographic Information Systems) and relevant land registries to verify ownership, easements, encumbrances, or pending disputes before transaction finalization.",
-      },
-      {
-        question: "What is title perfection and why is it necessary?",
-        answer: "Title perfection involves obtaining Governor's Consent, paying stamp duties, and registering the title deed at the Land Registry. This formalizes your ownership and protects your property from third-party claims.",
-      },
-      {
-        question: "Do you handle disputes over land ownership?",
-        answer: "Yes, property litigation, tenancy disputes, and recovery of premises are core aspects of our dispute resolution practice.",
-      },
-    ],
-  },
-  {
-    id: "family",
-    title: "Family",
-    faqs: [
-      {
-        question: "Do you handle divorce and custody matters?",
-        answer: "Yes, we handle matrimonial causes, including judicial separation, divorce petitions, child custody, and maintenance claims, with the utmost sensitivity, privacy, and professionalism.",
-      },
-      {
-        question: "Can you assist with wills and estate planning?",
-        answer: "Yes, we assist clients in drafting legally binding Wills, establishing trusts, and navigating the administration of estates, including obtaining Letters of Administration or Grants of Probate.",
+        question: "Can the firm help with property transactions?",
+        answer: "Yes. We advise on property acquisition, due diligence, title verification, documentation, conveyancing, and related disputes.",
       },
     ],
   },

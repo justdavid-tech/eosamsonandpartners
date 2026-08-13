@@ -85,7 +85,7 @@ export default function Testimonials() {
         <div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-12 lg:gap-20 items-center">
           
           {/* Left: Editorial Header & Trust Badges */}
-          <div className="max-w-md">
+          <div className="max-w-md md:max-w-xl lg:max-w-md md:text-center lg:text-left md:mx-auto lg:mx-0">
             <p className="eyebrow mb-4">Client Feedback</p>
             <h2 className="font-display text-4xl md:text-5xl text-navy leading-[1.1] mb-6">
               A reputation built on successful outcomes
