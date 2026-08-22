@@ -49,7 +49,7 @@ export function getPracticeAreaBySlug(slug) {
 export function getFeaturedPracticeAreas() {
   // Select specific featured slugs
   const featuredSlugs = [
-    "wealth-asset-protection",
+    "wealth-assets-protection",
     "civil-litigation",
     "corporate-commercial-law",
     "arbitration-adr",

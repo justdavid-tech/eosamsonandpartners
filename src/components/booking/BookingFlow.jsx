@@ -38,9 +38,12 @@ export default function BookingFlow({ practiceAreas }) {
   async function handleSubmit() {
     setStatus("sending");
     try {
-      const res = await fetch("/api/book-consultation", {
+      const res = await fetch("https://formspree.io/f/xeajdldy", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { 
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
         body: JSON.stringify(data),
       });
       if (!res.ok) throw new Error("Failed");
@@ -52,20 +55,29 @@ export default function BookingFlow({ practiceAreas }) {
 
   if (status === "sent") {
     return (
-      <div className="min-h-[70vh] flex items-center justify-center bg-cream px-6">
-        <div className="text-center max-w-md">
-          <p className="text-brass text-5xl mb-6">&#10003;</p>
-          <h1 className="font-display text-3xl text-navy mb-4">
+      <div className="min-h-[75vh] flex items-center justify-center bg-cream px-6 py-12">
+        <div className="bg-white border border-navy/5 p-8 md:p-12 text-center max-w-xl shadow-md rounded-sm animate-fade-in">
+          <div className="w-20 h-20 bg-brass/10 text-brass rounded-full flex items-center justify-center mx-auto mb-8 border border-brass/20 shadow-inner">
+            <span className="text-brass text-4xl font-light select-none animate-pulse">&#10003;</span>
+          </div>
+          <h1 className="font-display text-3xl text-navy mb-4 tracking-tight">
             Consultation Requested
           </h1>
-          <p className="text-slate leading-relaxed mb-8">
-            Thank you, {data.name}. We have received your request for{" "}
-            {data.practiceArea} on {data.date} at {data.time}. Our team will
-            contact you within one business day to confirm.
-          </p>
+          <div className="text-slate/85 leading-relaxed mb-10 text-sm md:text-base space-y-4 max-w-md mx-auto">
+            <p>
+              Thank you, <span className="font-semibold text-navy">{data.name}</span>. Your request for a <span className="font-semibold text-navy">{data.practiceArea}</span> consultation has been logged.
+            </p>
+            <div className="bg-cream/50 border border-navy/5 p-4 rounded-sm text-sm inline-block w-full">
+              <p className="text-navy/80 font-medium">Requested Schedule:</p>
+              <p className="text-brass font-semibold mt-0.5">{data.date} at {data.time}</p>
+            </div>
+            <p className="text-xs text-slate/70">
+              Our administrative team will review this slot and contact you within one business day via email or phone to confirm.
+            </p>
+          </div>
           <a
             href="/"
-            className="inline-block bg-navy text-white font-semibold px-7 py-3.5 hover:bg-navy-light transition-colors text-sm"
+            className="inline-block bg-navy hover:bg-navy-light text-white font-semibold px-8 py-3.5 rounded-sm transition-colors text-sm tracking-wide shadow-sm"
           >
             Return Home
           </a>
@@ -226,9 +238,12 @@ export default function BookingFlow({ practiceAreas }) {
               </div>
 
               {status === "error" && (
-                <p className="text-red-600 text-sm mt-4">
-                  Something went wrong sending your request. Please try again or contact us by phone.
-                </p>
+                <div className="bg-red-50 border border-red-200 text-red-800 text-sm p-4 rounded-sm mt-5 shadow-sm">
+                  <p className="font-semibold mb-0.5">Booking Interrupted</p>
+                  <p className="text-red-700/90 leading-relaxed">
+                    We could not establish a connection to process your booking. Please try again, or reach us directly at <a href="tel:+2348063553009" className="underline font-semibold hover:text-red-950">+234 806 355 3009</a>.
+                  </p>
+                </div>
               )}
             </div>
           )}

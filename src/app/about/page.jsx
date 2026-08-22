@@ -1,3 +1,5 @@
+import teamMembers from "@/data/team.json";
+
 export default function AboutPage() {
   return (
     <div>
@@ -135,6 +137,54 @@ export default function AboutPage() {
                 ))}
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============================================ */}
+      {/* OUR TEAM */}
+      {/* ============================================ */}
+      <section className="bg-[#fbfbf9]">
+        <div className="max-w-6xl mx-auto px-6 py-20 lg:py-24">
+          <p className="eyebrow mb-2 text-center text-brass">Our Professionals</p>
+          <h2 className="font-display text-3xl md:text-4xl text-navy text-center mb-4 tracking-tight">
+            Our Team
+          </h2>
+          <p className="text-slate text-center max-w-lg mx-auto mb-16 text-sm md:text-base">
+            Our team of dedicated legal practitioners combines deep domain expertise with strategic vision to deliver exceptional results.
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center max-w-4xl mx-auto">
+            {teamMembers.map((member, i) => (
+              <div
+                key={i}
+                className="group relative bg-white rounded-sm overflow-hidden border border-navy/5 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col"
+              >
+                <div className="aspect-[4/5] overflow-hidden relative">
+                  <img
+                    src={member.image}
+                    alt={`${member.name} - ${member.position}`}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-navy/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+                <div className="p-6 flex-grow flex flex-col justify-between">
+                  <div>
+                    <h3 className="font-display text-xl text-navy mb-1 group-hover:text-brass transition-colors duration-300">
+                      {member.name}
+                    </h3>
+                    <p className="text-brass text-sm font-semibold tracking-wide uppercase mb-3">
+                      {member.position}
+                    </p>
+                    {member.description && (
+                      <p className="text-slate text-sm leading-relaxed">
+                        {member.description}
+                      </p>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

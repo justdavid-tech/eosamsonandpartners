@@ -23,9 +23,12 @@ export default function ContactPage() {
     e.preventDefault();
     setStatus("sending");
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("https://formspree.io/f/xeajdldy", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { 
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
         body: JSON.stringify(formData),
       });
       if (!res.ok) throw new Error("Failed to send");
@@ -137,19 +140,19 @@ export default function ContactPage() {
             {activeMethod === "message" && (
               <div className="animate-fade-in">
                 {status === "sent" ? (
-                  <div className="py-12 text-center bg-white border border-navy/5 p-8 rounded-sm shadow-sm">
-                    <div className="w-16 h-16 bg-brass/10 text-brass rounded-full flex items-center justify-center mx-auto mb-6">
-                      <Check className="w-8 h-8 text-brass" />
+                  <div className="py-12 text-center bg-white border border-navy/5 p-8 rounded-sm shadow-md animate-fade-in">
+                    <div className="w-20 h-20 bg-brass/10 text-brass rounded-full flex items-center justify-center mx-auto mb-6 border border-brass/20 shadow-inner">
+                      <Check className="w-10 h-10 text-brass animate-pulse" />
                     </div>
-                    <h3 className="font-display text-2xl text-navy mb-2">Message Sent Successfully</h3>
-                    <p className="text-slate mb-6">
-                      Thank you for reaching out to E-O Samson & Partners. A representative will contact you shortly.
+                    <h3 className="font-display text-2xl md:text-3xl text-navy mb-3 tracking-tight">Enquiry Received</h3>
+                    <p className="text-slate/85 mb-8 max-w-md mx-auto leading-relaxed text-sm md:text-base">
+                      Thank you for contacting E-O Samson & Partners. Your message has been safely delivered to our counsel's desk. We prioritize professional review and will reach out to you within one business day.
                     </p>
                     <button
                       onClick={() => setStatus("idle")}
-                      className="text-sm font-semibold text-brass hover:underline cursor-pointer"
+                      className="inline-block bg-navy hover:bg-navy-light text-white font-semibold px-8 py-3.5 rounded-sm transition-colors text-sm tracking-wide cursor-pointer shadow-sm"
                     >
-                      Send another message
+                      Send Another Message
                     </button>
                   </div>
                 ) : (
@@ -228,8 +231,11 @@ export default function ContactPage() {
                     </button>
                     
                     {status === "error" && (
-                      <div className="bg-red-50 border border-red-200 text-red-700 text-sm p-4 rounded-sm mt-3">
-                        Something went wrong during submission. Please try again or reach out directly via Phone/WhatsApp.
+                      <div className="bg-red-50/90 border border-red-200 text-red-800 text-sm p-5 rounded-sm mt-4 shadow-sm">
+                        <p className="font-semibold mb-1">Submission Interrupted</p>
+                        <p className="text-red-750/90 leading-relaxed">
+                          We were unable to route your enquiry through our secure server. Please try submitting again, or connect with us immediately via <a href="tel:+2348063553009" className="underline font-semibold hover:text-red-950">Phone</a> or <a href="https://wa.me/2348063553009" target="_blank" rel="noopener noreferrer" className="underline font-semibold hover:text-red-950">WhatsApp</a> for prompt attention.
+                        </p>
                       </div>
                     )}
                   </form>
