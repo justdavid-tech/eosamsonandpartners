@@ -12,18 +12,18 @@ export const metadata = {
     template: "%s | E-O Samson & Partners",
   },
   description: "E-O Samson & Partners is a premier, full-service law firm combining profound legal expertise with strategic foresight to safeguard your personal, corporate, and constitutional rights.",
-  metadataBase: new URL("https://eosamsonandpartners.vercel.app"),
+  metadataBase: new URL("https://eosamsonandpartners.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "E-O Samson & Partners | Excellence in Advocacy",
     description: "Excellence in Advocacy. Integrity in Service. A premier law firm providing strategic legal counsel for individuals, corporations, and public entities.",
-    url: "https://eosamsonandpartners.vercel.app",
+    url: "https://eosamsonandpartners.com",
     siteName: "E-O Samson & Partners",
     images: [
       {
-        url: "https://eosamsonandpartners.vercel.app/logo.jpg",
+        url: "https://eosamsonandpartners.com/logo.jpg",
         width: 1200,
         height: 630,
         alt: "E-O Samson & Partners Logo",
@@ -36,7 +36,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "E-O Samson & Partners | Excellence in Advocacy",
     description: "Excellence in Advocacy. Integrity in Service. A premier law firm providing strategic legal counsel.",
-    images: ["https://eosamsonandpartners.vercel.app/logo.jpg"],
+    images: ["https://eosamsonandpartners.com/logo.jpg"],
   },
   icons: {
     icon: "/logo.jpg",

@@ -37,7 +37,7 @@ export default function Footer() {
             <p className="text-white/60">1, Ondo Street, Garki, FCT, Abuja</p>
             <a href="tel:+2348063553009" className="flex items-center gap-2 hover:text-brass transition-colors w-fit">
               <Phone className="w-4 h-4 text-brass" />
-              <span>+234-8063553009</span>
+              <span>+2348063553009</span>
             </a>
             <a href="mailto:info@eosamsonandpartners.com" className="flex items-center gap-2 hover:text-brass transition-colors w-fit">
               <Mail className="w-4 h-4 text-brass" />
