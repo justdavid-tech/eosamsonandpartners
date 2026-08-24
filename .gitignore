@@ -23,6 +23,10 @@
 # misc
 .DS_Store
 *.pem
+*.zip
+*.rar
+.next-build.zip
+
 
 # debug
 npm-debug.log*
